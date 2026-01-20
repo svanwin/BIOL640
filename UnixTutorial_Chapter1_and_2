@@ -1,0 +1,181 @@
+Installing, this may take a few minutes...
+Please create a default UNIX user account. The username does not need to match your Windows username.
+For more information visit: https://aka.ms/wslusers
+Enter new UNIX username: srvanwin
+New password:
+Retype new password:
+passwd: password updated successfully
+Installation successful!
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+srvanwin@LAPTOP-98J85QIK:~$ man ssh
+srvanwin@LAPTOP-98J85QIK:~$ ls
+srvanwin@LAPTOP-98J85QIK:~$ pwd
+/home/srvanwin
+srvanwin@LAPTOP-98J85QIK:~$ ls../home/srvanwin
+-bash: ls../home/srvanwin: No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ ls../home
+-bash: ls../home: No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ wget http://130.235.244.56/unix/tarballs/unix_course_chapter2.tar.gz
+--2026-01-19 18:05:43--  http://130.235.244.56/unix/tarballs/unix_course_chapter2.tar.gz
+Connecting to 130.235.244.56:80...
+failed: Connection timed out.
+Retrying.
+
+--2026-01-19 18:07:53--  (try: 2)  http://130.235.244.56/unix/tarballs/unix_course_chapter2.tar.gz
+Connecting to 130.235.244.56:80... failed: Connection timed out.
+Retrying.
+
+--2026-01-19 18:10:05--  (try: 3)  http://130.235.244.56/unix/tarballs/unix_course_chapter2.tar.gz
+Connecting to 130.235.244.56:80... ^C
+srvanwin@LAPTOP-98J85QIK:~$ ls ../home/srvanwin
+ls: cannot access '../home/srvanwin': No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ ls .. /home/srvanwin
+..:
+srvanwin
+
+/home/srvanwin:
+'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~$ tar -xf unix_course_data\ \(1\).tar.gz
+srvanwin@LAPTOP-98J85QIK:~$ ls .. /home/srvanwin
+..:
+srvanwin
+
+/home/srvanwin:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~$ ls .. /home/srvanwin/unix_course_data
+..:
+srvanwin
+
+/home/srvanwin/unix_course_data:
+MhaptRNASeq.fastq.gz  genome_files.tar.gz             unix_course_chapter2.tar.gz  unix_course_chapter4.tar.gz
+chapter2_old.tar.gz   potato_case_fasta_gene_ids.txt  unix_course_chapter3.tar.gz  unix_course_chapter7.tar.gz
+srvanwin@LAPTOP-98J85QIK:~$ pwd
+/home/srvanwin
+srvanwin@LAPTOP-98J85QIK:~$ ls .. /home/srvanwin
+..:
+srvanwin
+
+/home/srvanwin:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_chapter2
+-bash: cd: unix_course_chapter2: No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_data
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd ..
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_data
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls ..
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ pwd
+/home/srvanwin/unix_course_data
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. /home/srvanwin/unix_course_data
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+
+/home/srvanwin/unix_course_data:
+MhaptRNASeq.fastq.gz  genome_files.tar.gz             unix_course_chapter2.tar.gz  unix_course_chapter4.tar.gz
+chapter2_old.tar.gz   potato_case_fasta_gene_ids.txt  unix_course_chapter3.tar.gz  unix_course_chapter7.tar.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd ..
+srvanwin@LAPTOP-98J85QIK:~$ ls .. /home/srvanwin/unix_course_data
+..:
+srvanwin
+
+/home/srvanwin/unix_course_data:
+MhaptRNASeq.fastq.gz  genome_files.tar.gz             unix_course_chapter2.tar.gz  unix_course_chapter4.tar.gz
+chapter2_old.tar.gz   potato_case_fasta_gene_ids.txt  unix_course_chapter3.tar.gz  unix_course_chapter7.tar.gz
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_data/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls MhaptRNASeq.fastq.gz
+MhaptRNASeq.fastq.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. MhaptRNASeq.fastq.gz
+MhaptRNASeq.fastq.gz
+
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. genome_files.tar.gz
+genome_files.tar.gz
+
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ tar -xf genome_files.tar.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. genome_files.tar.gz
+genome_files.tar.gz
+
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ tar -xf unix_course_chapter2.tar.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd unix_course_chapter2.tar.gz
+-bash: cd: unix_course_chapter2.tar.gz: Not a directory
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. unix_course_data
+ls: cannot access 'unix_course_data': No such file or directory
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. /home/srvanwin/unix_course_data
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+
+/home/srvanwin/unix_course_data:
+MhaptRNASeq.fastq.gz  potato_case_fasta_gene_ids.txt  unix_course_chapter2.tar.gz  unix_course_chapter7.tar.gz
+chapter2_old.tar.gz   potato_reference_genome         unix_course_chapter3.tar.gz
+genome_files.tar.gz   unix_course_chapter2            unix_course_chapter4.tar.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls .. /home/srvanwin/unix_course_data/unix_course_chapter2
+..:
+ unix_course_data  'unix_course_data (1).tar.gz'  'unix_course_data (1).tar.gz:Zone.Identifier'
+
+/home/srvanwin/unix_course_data/unix_course_chapter2:
+file_tree
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ pwd
+/home/srvanwin/unix_course_data
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd unix_course_chapter2
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2$ pwd
+/home/srvanwin/unix_course_data/unix_course_chapter2
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2$ ls .. /home/srvanwin/unix_course_data/unix_course_chapter2
+..:
+MhaptRNASeq.fastq.gz  genome_files.tar.gz             potato_reference_genome  unix_course_chapter2.tar.gz  unix_course_chapter4.tar.gz
+chapter2_old.tar.gz   potato_case_fasta_gene_ids.txt  unix_course_chapter2     unix_course_chapter3.tar.gz  unix_course_chapter7.tar.gz
+
+/home/srvanwin/unix_course_data/unix_course_chapter2:
+file_tree
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2$ cd ..
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd ..
+srvanwin@LAPTOP-98J85QIK:~$ cd .. file_tree
+-bash: cd: too many arguments
+srvanwin@LAPTOP-98J85QIK:~$ cd file_tree
+-bash: cd: file_tree: No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_data/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ cd unix_course_chapter2/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2$ cd file_tree/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree$ ls
+continue_this_way
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree$ cd continue_this_way/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way$ ls
+you_should_go_this_way  you_should_not_go_here
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way$ cd you_should_go_this_way/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way$ ls
+not_here  this_is_not_your_goal  this_is_your_goal
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way$ cd this_is_your_goal
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ ls
+print_this_with_cat.txt
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ cat print_this_with_cat.txt
+Success! You now know how to use pwd, ls and cd.
+
+If you managed to get here without using tab completion, back up by running "cd ../../../.." and try it once more - This time using tab completion.
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ cd .. srvanwin
+-bash: cd: too many arguments
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ cd .. pwd
+-bash: cd: too many arguments
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ cd ~
+srvanwin@LAPTOP-98J85QIK:~$ unix_course_data/
+-bash: unix_course_data/: Is a directory
+srvanwin@LAPTOP-98J85QIK:~$ cd unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal/
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal$ cd ~
+srvanwin@LAPTOP-98J85QIK:~$ pwd print_this_with_cat.txt
+/home/srvanwin
+srvanwin@LAPTOP-98J85QIK:~$ cat ~/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal/print_this_with_cat.txt
+Success! You now know how to use pwd, ls and cd.
+
+If you managed to get here without using tab completion, back up by running "cd ../../../.." and try it once more - This time using tab completion.
+srvanwin@LAPTOP-98J85QIK:~$ cat /home/srvanwin/unix_course_data/unix_course_chapter2/file_tree/continue_this_way/you_should_go_this_way/this_is_your_goal/print_this_with_cat.txt
+Success! You now know how to use pwd, ls and cd.
+
+If you managed to get here without using tab completion, back up by running "cd ../../../.." and try it once more - This time using tab completion.
+srvanwin@LAPTOP-98J85QIK:~$
