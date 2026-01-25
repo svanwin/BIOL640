@@ -46,6 +46,7 @@ Using "man" command to view ssh command manual
 #### Chapter 4
 * I think it is interesting that the diff cmd showed my edits to the header (but since I only added a space, I was a little confused at first). 
 * I am having trouble downloading the gzipped FASTQ-file but could complete everything with the subset.
+* 	I was able to find the files and go through the code in the chapter tutorial. The code file on github is marked as "full GFF and FASTQ files chapter 4"
 * **Chapter 4** code filed on [github](https://github.com/svanwin/BIOL640/commit/81c3fd51dd43c4def287dd2f7fb6b3db454b94e8) through section 4.3.5
 * It is important to keep track of single vs. multi line (wrapping) because it will impact how you process the data in unix- some cmds assume one or the other
 * FASTQ format is designed for sequencing reads 
