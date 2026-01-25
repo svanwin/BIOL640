@@ -1,0 +1,56 @@
+#Part of the result of the "cut" cmd for the full GFF file (found in potato genome folder) is found below. It cut my code off for before, but after locating the GFF file
+#I was able to follow the workflow through the process we did with the smaller GFF file (subset)
+---
+CDS
+gene
+mRNA
+exon
+CDS
+gene
+mRNA
+exon
+CDS
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ ls
+mapping_table.tsv  representative_cds.fasta  representative_genes.gff  representative_genes_nocomments.gff
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ cut -f 3 representative_genes_nocomments > annotation_column_genes.txt
+cut: representative_genes_nocomments: No such file or directory
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ cut -f 3 representative_genes_nocomments.gff > anno
+tation_column_genes.txt
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ ls
+annotation_column_genes.txt  representative_cds.fasta  representative_genes_nocomments.gff
+mapping_table.tsv            representative_genes.gff
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ sort annotation_column_genes.txt > sorted_features.
+txt
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ ls
+annotation_column_genes.txt  representative_cds.fasta  representative_genes_nocomments.gff
+mapping_table.tsv            representative_genes.gff  sorted_features.txt
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$ uniq -c sorted_features.txt
+ 135695 CDS
+ 141037 exon #correct number!
+  39028 gene
+  39028 mRNA
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data/potato_reference_genome$
+
+#gunzip cmd for FASTQ file
+-----
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ gunzip MhaptRNASeq.fastq.gz
+ls
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ ls
+MhaptRNASeq.fastq    potato_case_fasta_gene_ids.txt  unix_course_chapter2.tar.gz  unix_course_chapter4
+chapter2_old.tar.gz  potato_reference_genome         unix_course_chapter3         unix_course_chapter4.tar.gz
+genome_files.tar.gz  unix_course_chapter2            unix_course_chapter3.tar.gz  unix_course_chapter7.tar.gz
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ head 3 MhaptRNASeq.fastq
+head: cannot open '3' for reading: No such file or directory
+==> MhaptRNASeq.fastq <==
+@HWI-ST143:492:C0FVMACXX:6:1101:1413:2211 1:N:0:GTGAAA
+GTCGAGAGCGTTTTTTCCCATTCCCCAAAGATGGGTTTCAAATAGCCTGTT
++
+?@?DBDDDFCCDFHIJE?GFGH@FHIJJIHAHGHIGIGBBGDGHH8CGHGH
+@HWI-ST143:492:C0FVMACXX:6:1101:1671:2190 1:N:0:GTGAAA
+CCTGGATATTAAATATTCGACAGTTTTTTCTCGTTCTTCCCTAACGTACGC
++
+@?@1AADAF>DF8<B?CBFF1EFEHIHE<G<9C??FFDFGDEFEE;FEFI:
+@HWI-ST143:492:C0FVMACXX:6:1101:1704:2227 1:N:0:GTGAAA
+CCCCGGTCCTACCATCGTCACCTCGATCCCGAACTCTGGTTCCTACACATG
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$ less MhaptRNASeq.fastq
+srvanwin@LAPTOP-98J85QIK:~/unix_course_data$
