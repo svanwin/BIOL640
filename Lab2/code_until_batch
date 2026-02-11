@@ -1,0 +1,1113 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+The authenticity of host 'oedipus.bioinformatics.rit.edu (129.21.205.4)' can't be established.
+ED25519 key fingerprint is SHA256:WeiUQhrtpyjoXwqi+s1THxh32+cXoKEsXA1bN7kB/7c.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'oedipus.bioinformatics.rit.edu' (ED25519) to the list of known hosts.
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Jan 21 15:51:21 2026 from 10.117.20.43
+
+
+srv7357@oedipus:~$
+srv7357@oedipus:~$
+srv7357@oedipus:~$ conda list
+# packages in environment at /opt/miniconda3:
+#
+# Name                      Version          Build               Channel
+_libgcc_mutex               0.1              main
+_openmp_mutex               5.1              1_gnu
+anaconda-anon-usage         0.7.4            pyhb46e38b_100
+anaconda-auth               0.10.0           py313h06a4308_1
+anaconda-cli-base           0.6.0            py313h06a4308_0
+annotated-types             0.6.0            py313h06a4308_1
+archspec                    0.2.5            pyhd3eb1b0_0
+boltons                     25.0.0           py313h06a4308_0
+brotlicffi                  1.0.9.2          py313hbdd6827_2
+bzip2                       1.0.8            h5eee18b_6
+c-ares                      1.34.5           hef5626c_0
+ca-certificates             2026.1.4         hbd8a1cb_0          conda-forge
+certifi                     2026.01.04       py313h06a4308_0
+cffi                        2.0.0            py313h4eded50_1
+charset-normalizer          3.4.4            py313h06a4308_0
+click                       8.1.8            py313h06a4308_0
+conda                       25.11.1          py313h06a4308_0
+conda-anaconda-telemetry    0.3.0            pyhd3eb1b0_1
+conda-anaconda-tos          0.2.2            py313h06a4308_1
+conda-content-trust         0.2.0            py313h06a4308_1
+conda-libmamba-solver       25.4.0           pyhdf14ebd_1
+conda-package-handling      2.4.0            py313h06a4308_1
+conda-package-streaming     0.12.0           py313h06a4308_1
+cpp-expected                1.3.1            h171cf75_0          conda-forge
+cryptography                46.0.3           py313h0a354b3_0
+dbus                        1.16.2           h5bd4931_0
+distro                      1.9.0            py313h06a4308_0
+expat                       2.7.3            h3385a95_0
+fmt                         12.1.0           hff5e90c_0          conda-forge
+frozendict                  2.4.6            py313hee96239_0
+gettext                     0.25.1           h3f43e3d_1          conda-forge
+gettext-tools               0.25.1           h3f43e3d_1          conda-forge
+icu                         78.2             h33c6efd_0          conda-forge
+idna                        3.11             py313h06a4308_0
+jansson                     2.14             h5eee18b_1
+jaraco.classes              3.4.0            py313h06a4308_0
+jaraco.context              6.0.0            py313h06a4308_0
+jaraco.functools            4.1.0            py313h06a4308_0
+jeepney                     0.7.1            pyhd3eb1b0_0
+jsonpatch                   1.33             py313h06a4308_1
+jsonpointer                 3.0.0            py313h06a4308_0
+keyring                     25.6.0           py313h06a4308_0
+keyutils                    1.6.3            hb9d3cd8_0          conda-forge
+krb5                        1.21.3           h659f571_0          conda-forge
+ld_impl_linux-64            2.44             h153f514_2
+libarchive                  3.8.5            gpl_hc2c16d8_100    conda-forge
+libasprintf                 0.25.1           h3f43e3d_1          conda-forge
+libasprintf-devel           0.25.1           h3f43e3d_1          conda-forge
+libcurl                     8.18.0           h4e3cde8_0          conda-forge
+libedit                     3.1.20250104     pl5321h7949ede_0    conda-forge
+libev                       4.33             h7f8727e_1
+libffi                      3.4.4            h6a678d5_1
+libgcc                      15.2.0           h69a1729_7
+libgcc-ng                   15.2.0           h166f726_7
+libgettextpo                0.25.1           h3f43e3d_1          conda-forge
+libgettextpo-devel          0.25.1           h3f43e3d_1          conda-forge
+libgomp                     15.2.0           h4751f2c_7
+libiconv                    1.18             h3b78370_2          conda-forge
+libidn2                     2.3.8            hf80d704_0
+liblzma                     5.8.1            hb9d3cd8_2          conda-forge
+liblzma-devel               5.8.1            hb9d3cd8_2          conda-forge
+libmamba                    2.5.0            hd28c85e_0          conda-forge
+libmamba-spdlog             2.5.0            h12fcf84_0          conda-forge
+libmambapy                  2.5.0            py313h4616538_0     conda-forge
+libmpdec                    4.0.0            h5eee18b_0
+libnghttp2                  1.67.0           had1ee68_0          conda-forge
+libsolv                     0.7.35           h9463b59_0          conda-forge
+libssh2                     1.11.1           h251f7ec_0
+libstdcxx                   15.2.0           h39759b7_7
+libstdcxx-ng                15.2.0           hc03a8fd_7
+libunistring                1.3              hb25bd0a_0
+libuuid                     1.41.5           h5eee18b_0
+libxcb                      1.17.0           h9b100fa_0
+libxml2                     2.15.1           he237659_1          conda-forge
+libxml2-16                  2.15.1           hca6bf5a_1          conda-forge
+libzlib                     1.3.1            hb25bd0a_0
+lz4-c                       1.10.0           h5888daf_1          conda-forge
+lzo                         2.10             h280c20c_1002       conda-forge
+mamba                       2.5.0            h9835478_0          conda-forge
+markdown-it-py              4.0.0            py313h06a4308_0
+mdurl                       0.1.2            py313h06a4308_0
+menuinst                    2.4.1            py313h06a4308_1
+more-itertools              10.8.0           py313h06a4308_0
+ncurses                     6.5              h7934f7d_0
+nlohmann_json               3.11.2           h6a678d5_0
+nlohmann_json-abi           3.12.0           h0f90c79_1          conda-forge
+openssl                     3.6.0            h26f9b46_0          conda-forge
+packaging                   25.0             py313h06a4308_1
+pcre2                       10.46            hf426167_0
+pip                         25.2             pyhc872135_1
+pkce                        1.0.3            py313h06a4308_0
+platformdirs                4.5.0            py313h06a4308_0
+pluggy                      1.5.0            py313h06a4308_0
+pthread-stubs               0.3              h0ce48e5_1
+pybind11-abi                11               hc364b38_1          conda-forge
+pycosat                     0.6.6            py313h5eee18b_2
+pycparser                   2.23             py313h06a4308_0
+pydantic                    2.12.3           py313h06a4308_1
+pydantic-core               2.41.4           py313h498d7c9_0
+pydantic-settings           2.10.1           py313h06a4308_0
+pygments                    2.19.2           py313h06a4308_0
+pyjwt                       2.10.1           py313h06a4308_0
+pysocks                     1.7.1            py313h06a4308_1
+python                      3.13.9           h7e8bc2b_100_cp313
+python-dotenv               1.1.0            py313h06a4308_0
+python_abi                  3.13             1_cp313
+readchar                    4.2.1            py313h06a4308_0
+readline                    8.3              hc2a1206_0
+reproc                      14.2.4           h6a678d5_2
+reproc-cpp                  14.2.4           h6a678d5_2
+requests                    2.32.5           py313h06a4308_1
+rich                        14.2.0           py313h06a4308_0
+ruamel.yaml                 0.18.16          py313h4aee224_0
+ruamel.yaml.clib            0.2.14           py313h4aee224_0
+secretstorage               3.4.0            py313h3e8c6aa_0
+semver                      3.0.4            py313h06a4308_0
+setuptools                  80.9.0           py313h06a4308_0
+shellingham                 1.5.4            py313h06a4308_0
+simdjson                    4.2.4            hb700be7_0          conda-forge
+spdlog                      1.17.0           hab81395_1          conda-forge
+sqlite                      3.51.0           h2a70700_0
+tk                          8.6.15           h54e0aa7_0
+tomli                       2.2.1            py313h06a4308_0
+tqdm                        4.67.1           py313h7040dfc_1
+truststore                  0.10.1           py313h06a4308_1
+typer                       0.17.4           py313h06a4308_0
+typing-extensions           4.15.0           py313h06a4308_0
+typing-inspection           0.4.2            py313h06a4308_0
+typing_extensions           4.15.0           py313h06a4308_0
+tzdata                      2025b            h04d1e81_0
+urllib3                     2.5.0            py313h06a4308_0
+wheel                       0.45.1           py313h06a4308_0
+xorg-libx11                 1.8.12           h9b100fa_1
+xorg-libxau                 1.0.12           h9b100fa_0
+xorg-libxdmcp               1.1.5            h9b100fa_0
+xorg-xorgproto              2024.1           h5eee18b_1
+xz                          5.8.1            hbcc6ac9_2          conda-forge
+xz-gpl-tools                5.8.1            hbcc6ac9_2          conda-forge
+xz-tools                    5.8.1            hb9d3cd8_2          conda-forge
+yaml-cpp                    0.8.0            h6a678d5_1
+zlib                        1.3.1            hb25bd0a_0
+zstandard                   0.24.0           py313h3d778a8_0
+zstd                        1.5.7            hb78ec9c_6          conda-forge
+srv7357@oedipus:~$ conda env list
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                     /opt/miniconda3
+bioinfo_env              /opt/miniconda3/envs/bioinfo_env
+qiime2-amplicon-2024.10     /opt/miniconda3/envs/qiime2-amplicon-2024.10
+quast-env                /opt/miniconda3/envs/quast-env
+test_env                 /opt/miniconda3/envs/test_env
+
+srv7357@oedipus:~$ conda create --name primer3
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/main? [(a)ccept/(r)eject/(v)iew]: a
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/r? [(a)ccept/(r)eject/(v)iew]: a
+2 channel Terms of Service accepted
+Retrieving notices: done
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.11.1
+    latest version: 26.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/srv7357/.conda/envs/primer3
+
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate primer3
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+srv7357@oedipus:~$ ls
+srv7357@oedipus:~$ cd
+srv7357@oedipus:~$ conda activate primer3
+(primer3) srv7357@oedipus:~$ ~ cd
+-bash: /home/srv7357: Is a directory
+(primer3) srv7357@oedipus:~$ conda deactivate
+srv7357@oedipus:~$ mkdir Lab2
+srv7357@oedipus:~$ ls
+Lab2
+srv7357@oedipus:~$ scp -r /mnt/c/Users/srvan/Downloads/Lab2_cl srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+scp: stat local "/mnt/c/Users/srvan/Downloads/Lab2_cl": No such file or directory
+srv7357@oedipus:~$ scp -r /c/Users/srvan/Downloads/Lab2_cl srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+scp: stat local "/c/Users/srvan/Downloads/Lab2_cl": No such file or directory
+srv7357@oedipus:~$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/Lab2_cl srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Permission denied, please try again.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Permission denied, please try again.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+._batch_seq.txt                                                                       100%  618    87.5KB/s   00:00
+._example.txt                                                                         100%  326    43.5KB/s   00:00
+batch_seq.txt                                                                         100% 3398   359.6KB/s   00:00
+example.txt                                                                           100%  368    39.2KB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 12:35:23 2026 from 129.21.71.61
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl
+srv7357@oedipus:~$ cd Lab2_cl
+srv7357@oedipus:~/Lab2_cl$ ls
+Lab2_cl
+srv7357@oedipus:~/Lab2_cl$ cd Lab2_cl
+srv7357@oedipus:~/Lab2_cl/Lab2_cl$ ls
+batch_seq.txt  example.txt
+srv7357@oedipus:~/Lab2_cl/Lab2_cl$ cd ~/Lab2_cl/Lab2_cl
+srv7357@oedipus:~/Lab2_cl/Lab2_cl$ mv * ..
+srv7357@oedipus:~/Lab2_cl/Lab2_cl$ cd ..
+srv7357@oedipus:~/Lab2_cl$ ls
+batch_seq.txt  example.txt  Lab2_cl
+srv7357@oedipus:~/Lab2_cl$ rmdir Lab2_cl
+rmdir: failed to remove 'Lab2_cl': Directory not empty
+srv7357@oedipus:~/Lab2_cl$ ls
+batch_seq.txt  example.txt  Lab2_cl
+srv7357@oedipus:~/Lab2_cl$ less example.txt
+srv7357@oedipus:~/Lab2_cl$ primer3_core example.txt
+-bash: primer3_core: command not found
+srv7357@oedipus:~/Lab2_cl$ activate primer3
+srv7357@oedipus:~/Lab2_cl$ primer3_core example.txt
+-bash: primer3_core: command not found
+srv7357@oedipus:~/Lab2_cl$ conda activate primer3
+(primer3) srv7357@oedipus:~/Lab2_cl$ primer3_core example.txt
+-bash: primer3_core: command not found
+(primer3) srv7357@oedipus:~/Lab2_cl$ conda install bioconda::primer3
+2 channel Terms of Service accepted
+Channels:
+ - defaults
+ - bioconda
+Platform: linux-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.11.1
+    latest version: 26.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/srv7357/.conda/envs/primer3
+
+  added / updated specs:
+    - bioconda::primer3
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    perl-5.32.1                | 0_h5eee18b_perl5        13.5 MB
+    primer3-2.6.1              | pl5321h503566f_7         1.0 MB  bioconda
+    ------------------------------------------------------------
+                                           Total:        14.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  libgcc             pkgs/main/linux-64::libgcc-15.2.0-h69a1729_7
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-15.2.0-h166f726_7
+  libgomp            pkgs/main/linux-64::libgomp-15.2.0-h4751f2c_7
+  libnsl             pkgs/main/linux-64::libnsl-2.0.0-h5eee18b_0
+  libstdcxx          pkgs/main/linux-64::libstdcxx-15.2.0-h39759b7_7
+  perl               pkgs/main/linux-64::perl-5.32.1-0_h5eee18b_perl5
+  primer3            bioconda/linux-64::primer3-2.6.1-pl5321h503566f_7
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(primer3) srv7357@oedipus:~/Lab2_cl$ primer3_core example.txt
+SEQUENCE_ID=example
+SEQUENCE_TEMPLATE=tattggtgaagcctcaggtagtgcagaatatgaaacttcaggatccagtgggcatgctactggtagtgctgccggccttacaggcattatggtggcaaagtcgacagagttta
+PRIMER_TASK=generic
+PRIMER_PICK_LEFT_PRIMER=1
+PRIMER_PICK_INTERNAL_OLIGO=0
+PRIMER_PICK_RIGHT_PRIMER=1
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_LEFT_EXPLAIN=considered 195, low tm 122, high tm 6, ok 67
+PRIMER_RIGHT_EXPLAIN=considered 195, low tm 47, high tm 51, ok 97
+PRIMER_PAIR_EXPLAIN=considered 7, unacceptable product size 2, ok 5
+PRIMER_LEFT_NUM_RETURNED=5
+PRIMER_RIGHT_NUM_RETURNED=5
+PRIMER_INTERNAL_NUM_RETURNED=0
+PRIMER_PAIR_NUM_RETURNED=5
+PRIMER_PAIR_0_PENALTY=0.571539
+PRIMER_LEFT_0_PENALTY=0.321671
+PRIMER_RIGHT_0_PENALTY=0.249868
+PRIMER_LEFT_0_SEQUENCE=gtgaagcctcaggtagtgca
+PRIMER_RIGHT_0_SEQUENCE=ctctgtcgactttgccacca
+PRIMER_LEFT_0=5,20
+PRIMER_RIGHT_0=108,20
+PRIMER_LEFT_0_TM=59.678
+PRIMER_RIGHT_0_TM=60.250
+PRIMER_LEFT_0_GC_PERCENT=55.000
+PRIMER_RIGHT_0_GC_PERCENT=55.000
+PRIMER_LEFT_0_SELF_ANY_TH=0.00
+PRIMER_RIGHT_0_SELF_ANY_TH=17.92
+PRIMER_LEFT_0_SELF_END_TH=0.00
+PRIMER_RIGHT_0_SELF_END_TH=0.00
+PRIMER_LEFT_0_HAIRPIN_TH=30.14
+PRIMER_RIGHT_0_HAIRPIN_TH=0.00
+PRIMER_LEFT_0_END_STABILITY=4.5700
+PRIMER_RIGHT_0_END_STABILITY=4.1700
+PRIMER_PAIR_0_COMPL_ANY_TH=0.00
+PRIMER_PAIR_0_COMPL_END_TH=2.16
+PRIMER_PAIR_0_PRODUCT_SIZE=104
+PRIMER_PAIR_0_PRODUCT_TM=84.0
+PRIMER_PAIR_1_PENALTY=0.571581
+PRIMER_LEFT_1_PENALTY=0.321671
+PRIMER_RIGHT_1_PENALTY=0.249911
+PRIMER_LEFT_1_SEQUENCE=gtgaagcctcaggtagtgca
+PRIMER_RIGHT_1_SEQUENCE=actctgtcgactttgccacc
+PRIMER_LEFT_1=5,20
+PRIMER_RIGHT_1=109,20
+PRIMER_LEFT_1_TM=59.678
+PRIMER_RIGHT_1_TM=60.250
+PRIMER_LEFT_1_GC_PERCENT=55.000
+PRIMER_RIGHT_1_GC_PERCENT=55.000
+PRIMER_LEFT_1_SELF_ANY_TH=0.00
+PRIMER_RIGHT_1_SELF_ANY_TH=17.92
+PRIMER_LEFT_1_SELF_END_TH=0.00
+PRIMER_RIGHT_1_SELF_END_TH=0.00
+PRIMER_LEFT_1_HAIRPIN_TH=30.14
+PRIMER_RIGHT_1_HAIRPIN_TH=0.00
+PRIMER_LEFT_1_END_STABILITY=4.5700
+PRIMER_RIGHT_1_END_STABILITY=4.6100
+PRIMER_PAIR_1_COMPL_ANY_TH=0.00
+PRIMER_PAIR_1_COMPL_END_TH=2.16
+PRIMER_PAIR_1_PRODUCT_SIZE=105
+PRIMER_PAIR_1_PRODUCT_TM=83.8
+PRIMER_PAIR_2_PENALTY=0.579464
+PRIMER_LEFT_2_PENALTY=0.329596
+PRIMER_RIGHT_2_PENALTY=0.249868
+PRIMER_LEFT_2_SEQUENCE=aacttcaggatccagtgggc
+PRIMER_RIGHT_2_SEQUENCE=ctctgtcgactttgccacca
+PRIMER_LEFT_2=33,20
+PRIMER_RIGHT_2=108,20
+PRIMER_LEFT_2_TM=59.670
+PRIMER_RIGHT_2_TM=60.250
+PRIMER_LEFT_2_GC_PERCENT=55.000
+PRIMER_RIGHT_2_GC_PERCENT=55.000
+PRIMER_LEFT_2_SELF_ANY_TH=15.82
+PRIMER_RIGHT_2_SELF_ANY_TH=17.92
+PRIMER_LEFT_2_SELF_END_TH=1.55
+PRIMER_RIGHT_2_SELF_END_TH=0.00
+PRIMER_LEFT_2_HAIRPIN_TH=0.00
+PRIMER_RIGHT_2_HAIRPIN_TH=0.00
+PRIMER_LEFT_2_END_STABILITY=5.3600
+PRIMER_RIGHT_2_END_STABILITY=4.1700
+PRIMER_PAIR_2_COMPL_ANY_TH=0.00
+PRIMER_PAIR_2_COMPL_END_TH=0.00
+PRIMER_PAIR_2_PRODUCT_SIZE=76
+PRIMER_PAIR_2_PRODUCT_TM=82.7
+PRIMER_PAIR_3_PENALTY=0.579506
+PRIMER_LEFT_3_PENALTY=0.329596
+PRIMER_RIGHT_3_PENALTY=0.249911
+PRIMER_LEFT_3_SEQUENCE=aacttcaggatccagtgggc
+PRIMER_RIGHT_3_SEQUENCE=actctgtcgactttgccacc
+PRIMER_LEFT_3=33,20
+PRIMER_RIGHT_3=109,20
+PRIMER_LEFT_3_TM=59.670
+PRIMER_RIGHT_3_TM=60.250
+PRIMER_LEFT_3_GC_PERCENT=55.000
+PRIMER_RIGHT_3_GC_PERCENT=55.000
+PRIMER_LEFT_3_SELF_ANY_TH=15.82
+PRIMER_RIGHT_3_SELF_ANY_TH=17.92
+PRIMER_LEFT_3_SELF_END_TH=1.55
+PRIMER_RIGHT_3_SELF_END_TH=0.00
+PRIMER_LEFT_3_HAIRPIN_TH=0.00
+PRIMER_RIGHT_3_HAIRPIN_TH=0.00
+PRIMER_LEFT_3_END_STABILITY=5.3600
+PRIMER_RIGHT_3_END_STABILITY=4.6100
+PRIMER_PAIR_3_COMPL_ANY_TH=0.00
+PRIMER_PAIR_3_COMPL_END_TH=0.00
+PRIMER_PAIR_3_PRODUCT_SIZE=77
+PRIMER_PAIR_3_PRODUCT_TM=82.5
+PRIMER_PAIR_4_PENALTY=0.641662
+PRIMER_LEFT_4_PENALTY=0.391793
+PRIMER_RIGHT_4_PENALTY=0.249868
+PRIMER_LEFT_4_SEQUENCE=ggtgaagcctcaggtagtgc
+PRIMER_RIGHT_4_SEQUENCE=ctctgtcgactttgccacca
+PRIMER_LEFT_4=4,20
+PRIMER_RIGHT_4=108,20
+PRIMER_LEFT_4_TM=60.392
+PRIMER_RIGHT_4_TM=60.250
+PRIMER_LEFT_4_GC_PERCENT=60.000
+PRIMER_RIGHT_4_GC_PERCENT=55.000
+PRIMER_LEFT_4_SELF_ANY_TH=0.00
+PRIMER_RIGHT_4_SELF_ANY_TH=17.92
+PRIMER_LEFT_4_SELF_END_TH=0.00
+PRIMER_RIGHT_4_SELF_END_TH=0.00
+PRIMER_LEFT_4_HAIRPIN_TH=30.14
+PRIMER_RIGHT_4_HAIRPIN_TH=0.00
+PRIMER_LEFT_4_END_STABILITY=4.4000
+PRIMER_RIGHT_4_END_STABILITY=4.1700
+PRIMER_PAIR_4_COMPL_ANY_TH=0.00
+PRIMER_PAIR_4_COMPL_END_TH=11.07
+PRIMER_PAIR_4_PRODUCT_SIZE=105
+PRIMER_PAIR_4_PRODUCT_TM=84.2
+=
+(primer3) srv7357@oedipus:~/Lab2_cl$ primer3_core Lab2/example.txt > Lab2/primer_output.txt
+-bash: Lab2/primer_output.txt: No such file or directory
+(primer3) srv7357@oedipus:~/Lab2_cl$ primer3_core example.txt > primer_output.txt
+(primer3) srv7357@oedipus:~/Lab2_cl$ ls
+batch_seq.txt  example.txt  Lab2_cl  primer_output.txt
+(primer3) srv7357@oedipus:~/Lab2_cl$ conda deactivate primer3
+
+ArgumentError: deactivate does not accept arguments
+remainder_args: ['primer3']
+
+
+(primer3) srv7357@oedipus:~/Lab2_cl$ deactivate primer3
+DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
+(primer3) srv7357@oedipus:~/Lab2_cl$ conda deactivate
+srv7357@oedipus:~/Lab2_cl$ ls
+batch_seq.txt  example.txt  Lab2_cl  primer_output.txt
+srv7357@oedipus:~/Lab2_cl$ less primer_output.txt
+srv7357@oedipus:~/Lab2_cl$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/sequence.fasta srv7357@oedipus.bioinformatics.rit.edu:/h
+ome/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+sequence.fasta                                                                        100%   10KB   1.2MB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 12:52:06 2026 from 129.21.71.61
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  sequence.fasta
+srv7357@oedipus:~$ less sequence.fasta
+srv7357@oedipus:~$ cd Lab2_cl
+srv7357@oedipus:~/Lab2_cl$ ls
+batch_seq.txt  example.txt  Lab2_cl  primer_output.txt
+srv7357@oedipus:~/Lab2_cl$ example.txt
+-bash: example.txt: command not found
+srv7357@oedipus:~/Lab2_cl$ less example.txt
+srv7357@oedipus:~/Lab2_cl$ cd ~
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  sequence.fasta
+srv7357@oedipus:~$ less sequence.fasta
+srv7357@oedipus:~$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence.fasta srv7357@oedipus.bioinformatics.rit.e
+du:/home/srv7357
+scp: stat local "/mnt/c/Users/srvan/Downloads/McyE_sequence.fasta": No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence.fasta srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+scp: stat local "/mnt/c/Users/srvan/Downloads/McyE_sequence.fasta": No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence.fasta.txt srv7357@oedipus.bioinformatics.r
+it.edu:/home/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+McyE_sequence.fasta.txt                                                               100%   10KB 653.3KB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 13:34:33 2026 from 129.21.71.61
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  sequence.fasta
+srv7357@oedipus:~$ conda activate primer3
+(primer3) srv7357@oedipus:~$ primer3_core McyE_sequence.fasta.txt
+SEQUENCE_ID=Microcystis_aeruginosaMcyE
+SEQUENCE_TEMPLATE=ATGGTTGAGAGTATAGATTACAAAAAATTAATGGCAACGACCTTAAGCAAAATGGAGGTCATGCAGGCTCGTATCAATGAATTAGAGACGAGACAAAGTGAAGCTATTGCGGTGGTTGGGATGGCTTGTCGTTTTCCTGGAGGTATTAATTCCCCAGAAAAATATTGGAGTTTTTGTCAAGCCGGGCTTGATGCTATAGTAGAAGTTCCTAAAAGCCGTTGGGATATCTCAAAACTGTATTCTCAAGAACCAACTTTAGGAAAAATGAACACCGCTTATGGTGGATTTCTTCAAGAGAATATCACAGAATTTGATGCCCGTTTCTTTTCGATCTCAGCAAGAGAAGCAGCCTCCATGGATCCTCAACAAAGGTTACTCTTAGAAGTTGCTTGGGAAGCGTTAGAAAATGCCAATTTACCTCTGAAAAATTTAGCCGATAATAAGGTAGGGGTATTTGTGGGGATTACTAGCATTGATCATGCTCTGAAGGTTTACGGCACAAACTATGATCAAATTGACTCTTTTTTTGGCACCGGCAATGCTCTAAGCGCAGCCGCCGGAAGGCTATCTTATTTTCTCAATCTTCACGGTCCTTGTCTCTCCATTGATGCAGCCTGTGCATCCTCATTAGTAGCCGTCCATCAGGGGATTCGTAGCCTGAGAAATCGTGAATGTGAACTCGCTTTAGTGGGTGGGGTAAACCTCATTTTAGAACCCGCCATTACGATTAGTCTTTCTCAGTCGGGAATGATGTCCCCCGATGGGCGTTGCAAAACCTTCGATGCCTCTGCTAACGGATATGTGCGAGGGGAAGGCTGTGGGGTTTTAATCTTAAAAACTTTATCAGAAGCCCAGAAAAACGGGGATCACATTCTTGCCCTGTTGCGAGGTTCGGCGGTGAATCATAATGGGGCTGCTGCCGGTTTAACCGTACCCAGTGGACCCGCCCAGCAAGAATTGCTCCGTCAAGCTCTAGCTGATGCCAGAATAGTCCCTGAAGATGTCAGCTACATAGAAGCTCATGGCACAGGCACTTCTTTAGGAGATCCCATCGAATTGAATGCCATTGCATCAGTTTATGGAAAGCGCTCCGACCCTCTTTATATCGCCTCAGTGAAAACCAATATCGGTCATCTTGAAGCCGCAGCTGGCATGGCCGGAATAATCAAAACAATTCTGATTCTTCAACAGGGTGAAATCCCCTCCCATCTTCACTTACAAAGCCCTAATCCTCTGATTAATTGGGAAGATCATCCTATTAAAATTCCTACTCAAAATATACCTTGGCCGAATAACAATAAAGTCCCTATAGCTGGGGTAAGTTCTTTTGGGTTTTCTGGCACAAATGCCCATGTCATTGTTCAACAAGCACCCGTCAGCAAAATCTCAGAAATTCAACAACAAATTCCTAGTCATCTCTTAACTCTTTCAGCCCACAACAAAACCGCTTTAAAAGAATTAGCTAAACGTTTTCATACCCTCCTAGAATCTCATCCTGAAATTGGAGATATTTGTTATAGTGCAGCTGTCGGCAGGATAGATTTACCTGAACGTTTAGCCATTGTTGGCGATACTTGTCCAGAATTACAACAAAGATTAGCCGCTTTTGCTGAAGAAAACCCGCTTGATGATTTGACTTTTTATCAACGTTTTACATCGGAAAAATCCCCTAAAATTGTTTTTCTTTTTACAGGGCAAGGGGCTTGTTATCCTGGCATGGGACATCAACTCTATCAAACTCAGCCGACATTTCGTCAATATATTGATCAATGTGCCGAAATATTAGCGAAGTATTTAGACCATCCTTTAACTGAAATATTATTTGGTGAACAGACCGATTTACTCAATCAAACTGCTTACGCTCAACCGGCTATATTCGCCCTAGAATATTCCCTAACAATGCTATGGAAATCTTGGGGAATTACCCCCAGTTTACTGATTGGCCATAGTGTGGGAGAAT
+ATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGG
+CTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGA
+CATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+PRIMER_TASK=generic
+PRIMER_PICK_LEFT_PRIMER=1
+PRIMER_PICK_INTERNAL_OLIGO=0
+PRIMER_PICK_RIGHT_PRIMER=1
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_ERROR=Input line with no '=': ATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGG; Input line with no '=': CTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGA; Input line with no '=': CATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+=
+primer3_core: Input line with no '=': ATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGG; Input line with no '=': CTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGA; Input line with no '=': CATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+(primer3) srv7357@oedipus:~$ conda deactivate
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  sequence.fasta
+srv7357@oedipus:~$ rm McyE_sequence.fasta.txt
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  sequence.fasta
+srv7357@oedipus:~$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence.fasta.txt srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+McyE_sequence.fasta.txt                                                                                                       100%   10KB   1.1MB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 13:47:56 2026 from 129.21.71.61
+srv7357@oedipus:~$ conda activate primer3
+(primer3) srv7357@oedipus:~$ primer3_core McyE_sequence.fasta.txt
+SEQUENCE_ID=Microcystis_aeruginosaMcyE
+SEQUENCE_TEMPLATE=ATGGTTGAGAGTATAGATTACAAAAAATTAATGGCAACGACCTTAAGCAAAATGGAGGTCATGCAGGCTCGTATCAATGAATTAGAGACGAGACAAAGTGAAGCTATTGCGGTGGTTGGGATGGCTTGTCGTTTTCCTGGAGGTATTAATTCCCCAGAAAAATATTGGAGTTTTTGTCAAGCCGGGCTTGATGCTATAGTAGAAGTTCCTAAAAGCCGTTGGGATATCTCAAAACTGTATTCTCAAGAACCAACTTTAGGAAAAATGAACACCGCTTATGGTGGATTTCTTCAAGAGAATATCACAGAATTTGATGCCCGTTTCTTTTCGATCTCAGCAAGAGAAGCAGCCTCCATGGATCCTCAACAAAGGTTACTCTTAGAAGTTGCTTGGGAAGCGTTAGAAAATGCCAATTTACCTCTGAAAAATTTAGCCGATAATAAGGTAGGGGTATTTGTGGGGATTACTAGCATTGATCATGCTCTGAAGGTTTACGGCACAAACTATGATCAAATTGACTCTTTTTTTGGCACCGGCAATGCTCTAAGCGCAGCCGCCGGAAGGCTATCTTATTTTCTCAATCTTCACGGTCCTTGTCTCTCCATTGATGCAGCCTGTGCATCCTCATTAGTAGCCGTCCATCAGGGGATTCGTAGCCTGAGAAATCGTGAATGTGAACTCGCTTTAGTGGGTGGGGTAAACCTCATTTTAGAACCCGCCATTACGATTAGTCTTTCTCAGTCGGGAATGATGTCCCCCGATGGGCGTTGCAAAACCTTCGATGCCTCTGCTAACGGATATGTGCGAGGGGAAGGCTGTGGGGTTTTAATCTTAAAAACTTTATCAGAAGCCCAGAAAAACGGGGATCACATTCTTGCCCTGTTGCGAGGTTCGGCGGTGAATCATAATGGGGCTGCTGCCGGTTTAACCGTACCCAGTGGACCCGCCCAGCAAGAATTGCTCCGTCAAGCTCTAGCTGATGCCAGAATAGTCCCTGAAGATGTCAGCTACATAGAAGCTCATGGCACAGGCACTTCTTTAGGAGATCCCATCGAATTGAATGCCATTGCATCAGTTTATGGAAAGCGCTCCGACCCTCTTTATATCGCCTCAGTGAAAACCAATATCGGTCATCTTGAAGCCGCAGCTGGCATGGCCGGAATAATCAAAACAATTCTGATTCTTCAACAGGGTGAAATCCCCTCCCATCTTCACTTACAAAGCCCTAATCCTCTGATTAATTGGGAAGATCATCCTATTAAAATTCCTACTCAAAATATACCTTGGCCGAATAACAATAAAGTCCCTATAGCTGGGGTAAGTTCTTTTGGGTTTTCTGGCACAAATGCCCATGTCATTGTTCAACAAGCACCCGTCAGCAAAATCTCAGAAATTCAACAACAAATTCCTAGTCATCTCTTAACTCTTTCAGCCCACAACAAAACCGCTTTAAAAGAATTAGCTAAACGTTTTCATACCCTCCTAGAATCTCATCCTGAAATTGGAGATATTTGTTATAGTGCAGCTGTCGGCAGGATAGATTTACCTGAACGTTTAGCCATTGTTGGCGATACTTGTCCAGAATTACAACAAAGATTAGCCGCTTTTGCTGAAGAAAACCCGCTTGATGATTTGACTTTTTATCAACGTTTTACATCGGAAAAATCCCCTAAAATTGTTTTTCTTTTTACAGGGCAAGGGGCTTGTTATCCTGGCATGGGACATCAACTCTATCAAACTCAGCCGACATTTCGTCAATATATTGATCAATGTGCCGAAATATTAGCGAAGTATTTAGACCATCCTTTAACTGAAATATTATTTGGTGAACAGACCGATTTACTCAATCAAACTGCTTACGCTCAACCGGCTATATTCGCCCTAGAATATTCCCTAACAATGCTATGGAAATCTTGGGGAATTACCCCCAGTTTACTGATTGGCCATAGTGTGGGAGAATATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGGCTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGACATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+PRIMER_TASK=generic
+PRIMER_PICK_LEFT_PRIMER=1
+PRIMER_PICK_INTERNAL_OLIGO=0
+PRIMER_PICK_RIGHT_PRIMER=1
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_LEFT_EXPLAIN=considered 50860, GC content failed 1193, low tm 37057, high tm 1811, long poly-x seq 331, ok 10468
+PRIMER_RIGHT_EXPLAIN=considered 50893, GC content failed 1176, low tm 37129, high tm 1806, long poly-x seq 320, ok 10462
+PRIMER_PAIR_EXPLAIN=considered 886, unacceptable product size 879, ok 7
+PRIMER_LEFT_NUM_RETURNED=5
+PRIMER_RIGHT_NUM_RETURNED=5
+PRIMER_INTERNAL_NUM_RETURNED=0
+PRIMER_PAIR_NUM_RETURNED=5
+PRIMER_PAIR_0_PENALTY=0.065881
+PRIMER_LEFT_0_PENALTY=0.032515
+PRIMER_RIGHT_0_PENALTY=0.033366
+PRIMER_LEFT_0_SEQUENCE=TCAGGGGATTCGTAGCCTGA
+PRIMER_RIGHT_0_SEQUENCE=AAGGTTTTGCAACGCCCATC
+PRIMER_LEFT_0=641,20
+PRIMER_RIGHT_0=778,20
+PRIMER_LEFT_0_TM=60.033
+PRIMER_RIGHT_0_TM=59.967
+PRIMER_LEFT_0_GC_PERCENT=55.000
+PRIMER_RIGHT_0_GC_PERCENT=50.000
+PRIMER_LEFT_0_SELF_ANY_TH=0.00
+PRIMER_RIGHT_0_SELF_ANY_TH=13.19
+PRIMER_LEFT_0_SELF_END_TH=0.00
+PRIMER_RIGHT_0_SELF_END_TH=0.00
+PRIMER_LEFT_0_HAIRPIN_TH=32.85
+PRIMER_RIGHT_0_HAIRPIN_TH=33.13
+PRIMER_LEFT_0_END_STABILITY=3.8600
+PRIMER_RIGHT_0_END_STABILITY=3.5100
+PRIMER_PAIR_0_COMPL_ANY_TH=0.00
+PRIMER_PAIR_0_COMPL_END_TH=0.00
+PRIMER_PAIR_0_PRODUCT_SIZE=138
+PRIMER_PAIR_0_PRODUCT_TM=84.0
+PRIMER_PAIR_1_PENALTY=0.065881
+PRIMER_LEFT_1_PENALTY=0.032515
+PRIMER_RIGHT_1_PENALTY=0.033366
+PRIMER_LEFT_1_SEQUENCE=TCAGGGGATTCGTAGCCTGA
+PRIMER_RIGHT_1_SEQUENCE=GAAGGTTTTGCAACGCCCAT
+PRIMER_LEFT_1=641,20
+PRIMER_RIGHT_1=779,20
+PRIMER_LEFT_1_TM=60.033
+PRIMER_RIGHT_1_TM=59.967
+PRIMER_LEFT_1_GC_PERCENT=55.000
+PRIMER_RIGHT_1_GC_PERCENT=50.000
+PRIMER_LEFT_1_SELF_ANY_TH=0.00
+PRIMER_RIGHT_1_SELF_ANY_TH=13.19
+PRIMER_LEFT_1_SELF_END_TH=0.00
+PRIMER_RIGHT_1_SELF_END_TH=4.91
+PRIMER_LEFT_1_HAIRPIN_TH=32.85
+PRIMER_RIGHT_1_HAIRPIN_TH=33.13
+PRIMER_LEFT_1_END_STABILITY=3.8600
+PRIMER_RIGHT_1_END_STABILITY=4.0000
+PRIMER_PAIR_1_COMPL_ANY_TH=0.00
+PRIMER_PAIR_1_COMPL_END_TH=0.00
+PRIMER_PAIR_1_PRODUCT_SIZE=139
+PRIMER_PAIR_1_PRODUCT_TM=84.2
+PRIMER_PAIR_2_PENALTY=0.068823
+PRIMER_LEFT_2_PENALTY=0.035458
+PRIMER_RIGHT_2_PENALTY=0.033366
+PRIMER_LEFT_2_SEQUENCE=CCATCAGGGGATTCGTAGCC
+PRIMER_RIGHT_2_SEQUENCE=AAGGTTTTGCAACGCCCATC
+PRIMER_LEFT_2=638,20
+PRIMER_RIGHT_2=778,20
+PRIMER_LEFT_2_TM=59.965
+PRIMER_RIGHT_2_TM=59.967
+PRIMER_LEFT_2_GC_PERCENT=60.000
+PRIMER_RIGHT_2_GC_PERCENT=50.000
+PRIMER_LEFT_2_SELF_ANY_TH=0.00
+PRIMER_RIGHT_2_SELF_ANY_TH=13.19
+PRIMER_LEFT_2_SELF_END_TH=0.00
+PRIMER_RIGHT_2_SELF_END_TH=0.00
+PRIMER_LEFT_2_HAIRPIN_TH=0.00
+PRIMER_RIGHT_2_HAIRPIN_TH=33.13
+PRIMER_LEFT_2_END_STABILITY=3.9300
+PRIMER_RIGHT_2_END_STABILITY=3.5100
+PRIMER_PAIR_2_COMPL_ANY_TH=0.00
+PRIMER_PAIR_2_COMPL_END_TH=0.00
+PRIMER_PAIR_2_PRODUCT_SIZE=141
+PRIMER_PAIR_2_PRODUCT_TM=84.3
+PRIMER_PAIR_3_PENALTY=0.068823
+PRIMER_LEFT_3_PENALTY=0.035458
+PRIMER_RIGHT_3_PENALTY=0.033366
+PRIMER_LEFT_3_SEQUENCE=CCATCAGGGGATTCGTAGCC
+PRIMER_RIGHT_3_SEQUENCE=GAAGGTTTTGCAACGCCCAT
+PRIMER_LEFT_3=638,20
+PRIMER_RIGHT_3=779,20
+PRIMER_LEFT_3_TM=59.965
+PRIMER_RIGHT_3_TM=59.967
+PRIMER_LEFT_3_GC_PERCENT=60.000
+PRIMER_RIGHT_3_GC_PERCENT=50.000
+PRIMER_LEFT_3_SELF_ANY_TH=0.00
+PRIMER_RIGHT_3_SELF_ANY_TH=13.19
+PRIMER_LEFT_3_SELF_END_TH=0.00
+PRIMER_RIGHT_3_SELF_END_TH=4.91
+PRIMER_LEFT_3_HAIRPIN_TH=0.00
+PRIMER_RIGHT_3_HAIRPIN_TH=33.13
+PRIMER_LEFT_3_END_STABILITY=3.9300
+PRIMER_RIGHT_3_END_STABILITY=4.0000
+PRIMER_PAIR_3_COMPL_ANY_TH=0.00
+PRIMER_PAIR_3_COMPL_END_TH=0.00
+PRIMER_PAIR_3_PRODUCT_SIZE=142
+PRIMER_PAIR_3_PRODUCT_TM=84.4
+PRIMER_PAIR_4_PENALTY=0.068983
+PRIMER_LEFT_4_PENALTY=0.036306
+PRIMER_RIGHT_4_PENALTY=0.032678
+PRIMER_LEFT_4_SEQUENCE=AACTCGCTTTAGTGGGTGGG
+PRIMER_RIGHT_4_SEQUENCE=ATCCGTTAGCAGAGGCATCG
+PRIMER_LEFT_4=676,20
+PRIMER_RIGHT_4=798,20
+PRIMER_LEFT_4_TM=59.964
+PRIMER_RIGHT_4_TM=59.967
+PRIMER_LEFT_4_GC_PERCENT=55.000
+PRIMER_RIGHT_4_GC_PERCENT=55.000
+PRIMER_LEFT_4_SELF_ANY_TH=0.00
+PRIMER_RIGHT_4_SELF_ANY_TH=0.00
+PRIMER_LEFT_4_SELF_END_TH=0.00
+PRIMER_RIGHT_4_SELF_END_TH=0.00
+PRIMER_LEFT_4_HAIRPIN_TH=38.49
+PRIMER_RIGHT_4_HAIRPIN_TH=44.61
+PRIMER_LEFT_4_END_STABILITY=4.6100
+PRIMER_RIGHT_4_END_STABILITY=3.8400
+PRIMER_PAIR_4_COMPL_ANY_TH=0.18
+PRIMER_PAIR_4_COMPL_END_TH=0.00
+PRIMER_PAIR_4_PRODUCT_SIZE=123
+PRIMER_PAIR_4_PRODUCT_TM=83.9
+=
+
+PRIMER_ERROR=Input line with no '=': ; Final record not terminated by '='
+=
+primer3_core: Input line with no '=': ; Final record not terminated by '='
+(primer3) srv7357@oedipus:~$ conda deactivate
+srv7357@oedipus:~$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence_hybprobe.txt srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+McyE_sequence_hybprobe.txt                                                                                                    100%   10KB   1.7MB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Permission denied, please try again.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 14:00:35 2026 from 129.21.71.61
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  McyE_sequence_hybprobe.txt  sequence.fasta
+srv7357@oedipus:~$ conda activate primer3
+(primer3) srv7357@oedipus:~$ primer3_core McyE_sequence.fasta.txt
+SEQUENCE_ID=Microcystis_aeruginosaMcyE
+SEQUENCE_TEMPLATE=ATGGTTGAGAGTATAGATTACAAAAAATTAATGGCAACGACCTTAAGCAAAATGGAGGTCATGCAGGCTCGTATCAATGAATTAGAGACGAGACAAAGTGAAGCTATTGCGGTGGTTGGGATGGCTTGTCGTTTTCCTGGAGGTATTAATTCCCCAGAAAAATATTGGAGTTTTTGTCAAGCCGGGCTTGATGCTATAGTAGAAGTTCCTAAAAGCCGTTGGGATATCTCAAAACTGTATTCTCAAGAACCAACTTTAGGAAAAATGAACACCGCTTATGGTGGATTTCTTCAAGAGAATATCACAGAATTTGATGCCCGTTTCTTTTCGATCTCAGCAAGAGAAGCAGCCTCCATGGATCCTCAACAAAGGTTACTCTTAGAAGTTGCTTGGGAAGCGTTAGAAAATGCCAATTTACCTCTGAAAAATTTAGCCGATAATAAGGTAGGGGTATTTGTGGGGATTACTAGCATTGATCATGCTCTGAAGGTTTACGGCACAAACTATGATCAAATTGACTCTTTTTTTGGCACCGGCAATGCTCTAAGCGCAGCCGCCGGAAGGCTATCTTATTTTCTCAATCTTCACGGTCCTTGTCTCTCCATTGATGCAGCCTGTGCATCCTCATTAGTAGCCGTCCATCAGGGGATTCGTAGCCTGAGAAATCGTGAATGTGAACTCGCTTTAGTGGGTGGGGTAAACCTCATTTTAGAACCCGCCATTACGATTAGTCTTTCTCAGTCGGGAATGATGTCCCCCGATGGGCGTTGCAAAACCTTCGATGCCTCTGCTAACGGATATGTGCGAGGGGAAGGCTGTGGGGTTTTAATCTTAAAAACTTTATCAGAAGCCCAGAAAAACGGGGATCACATTCTTGCCCTGTTGCGAGGTTCGGCGGTGAATCATAATGGGGCTGCTGCCGGTTTAACCGTACCCAGTGGACCCGCCCAGCAAGAATTGCTCCGTCAAGCTCTAGCTGATGCCAGAATAGTCCCTGAAGATGTCAGCTACATAGAAGCTCATGGCACAGGCACTTCTTTAGGAGATCCCATCGAATTGAATGCCATTGCATCAGTTTATGGAAAGCGCTCCGACCCTCTTTATATCGCCTCAGTGAAAACCAATATCGGTCATCTTGAAGCCGCAGCTGGCATGGCCGGAATAATCAAAACAATTCTGATTCTTCAACAGGGTGAAATCCCCTCCCATCTTCACTTACAAAGCCCTAATCCTCTGATTAATTGGGAAGATCATCCTATTAAAATTCCTACTCAAAATATACCTTGGCCGAATAACAATAAAGTCCCTATAGCTGGGGTAAGTTCTTTTGGGTTTTCTGGCACAAATGCCCATGTCATTGTTCAACAAGCACCCGTCAGCAAAATCTCAGAAATTCAACAACAAATTCCTAGTCATCTCTTAACTCTTTCAGCCCACAACAAAACCGCTTTAAAAGAATTAGCTAAACGTTTTCATACCCTCCTAGAATCTCATCCTGAAATTGGAGATATTTGTTATAGTGCAGCTGTCGGCAGGATAGATTTACCTGAACGTTTAGCCATTGTTGGCGATACTTGTCCAGAATTACAACAAAGATTAGCCGCTTTTGCTGAAGAAAACCCGCTTGATGATTTGACTTTTTATCAACGTTTTACATCGGAAAAATCCCCTAAAATTGTTTTTCTTTTTACAGGGCAAGGGGCTTGTTATCCTGGCATGGGACATCAACTCTATCAAACTCAGCCGACATTTCGTCAATATATTGATCAATGTGCCGAAATATTAGCGAAGTATTTAGACCATCCTTTAACTGAAATATTATTTGGTGAACAGACCGATTTACTCAATCAAACTGCTTACGCTCAACCGGCTATATTCGCCCTAGAATATTCCCTAACAATGCTATGGAAATCTTGGGGAATTACCCCCAGTTTACTGATTGGCCATAGTGTGGGAGAATATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGGCTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGACATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+PRIMER_TASK=generic
+PRIMER_PICK_LEFT_PRIMER=1
+PRIMER_PICK_INTERNAL_OLIGO=0
+PRIMER_PICK_RIGHT_PRIMER=1
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_LEFT_EXPLAIN=considered 50860, GC content failed 1193, low tm 37057, high tm 1811, long poly-x seq 331, ok 10468
+PRIMER_RIGHT_EXPLAIN=considered 50893, GC content failed 1176, low tm 37129, high tm 1806, long poly-x seq 320, ok 10462
+PRIMER_PAIR_EXPLAIN=considered 886, unacceptable product size 879, ok 7
+PRIMER_LEFT_NUM_RETURNED=5
+PRIMER_RIGHT_NUM_RETURNED=5
+PRIMER_INTERNAL_NUM_RETURNED=0
+PRIMER_PAIR_NUM_RETURNED=5
+PRIMER_PAIR_0_PENALTY=0.065881
+PRIMER_LEFT_0_PENALTY=0.032515
+PRIMER_RIGHT_0_PENALTY=0.033366
+PRIMER_LEFT_0_SEQUENCE=TCAGGGGATTCGTAGCCTGA
+PRIMER_RIGHT_0_SEQUENCE=AAGGTTTTGCAACGCCCATC
+PRIMER_LEFT_0=641,20
+PRIMER_RIGHT_0=778,20
+PRIMER_LEFT_0_TM=60.033
+PRIMER_RIGHT_0_TM=59.967
+PRIMER_LEFT_0_GC_PERCENT=55.000
+PRIMER_RIGHT_0_GC_PERCENT=50.000
+PRIMER_LEFT_0_SELF_ANY_TH=0.00
+PRIMER_RIGHT_0_SELF_ANY_TH=13.19
+PRIMER_LEFT_0_SELF_END_TH=0.00
+PRIMER_RIGHT_0_SELF_END_TH=0.00
+PRIMER_LEFT_0_HAIRPIN_TH=32.85
+PRIMER_RIGHT_0_HAIRPIN_TH=33.13
+PRIMER_LEFT_0_END_STABILITY=3.8600
+PRIMER_RIGHT_0_END_STABILITY=3.5100
+PRIMER_PAIR_0_COMPL_ANY_TH=0.00
+PRIMER_PAIR_0_COMPL_END_TH=0.00
+PRIMER_PAIR_0_PRODUCT_SIZE=138
+PRIMER_PAIR_0_PRODUCT_TM=84.0
+PRIMER_PAIR_1_PENALTY=0.065881
+PRIMER_LEFT_1_PENALTY=0.032515
+PRIMER_RIGHT_1_PENALTY=0.033366
+PRIMER_LEFT_1_SEQUENCE=TCAGGGGATTCGTAGCCTGA
+PRIMER_RIGHT_1_SEQUENCE=GAAGGTTTTGCAACGCCCAT
+PRIMER_LEFT_1=641,20
+PRIMER_RIGHT_1=779,20
+PRIMER_LEFT_1_TM=60.033
+PRIMER_RIGHT_1_TM=59.967
+PRIMER_LEFT_1_GC_PERCENT=55.000
+PRIMER_RIGHT_1_GC_PERCENT=50.000
+PRIMER_LEFT_1_SELF_ANY_TH=0.00
+PRIMER_RIGHT_1_SELF_ANY_TH=13.19
+PRIMER_LEFT_1_SELF_END_TH=0.00
+PRIMER_RIGHT_1_SELF_END_TH=4.91
+PRIMER_LEFT_1_HAIRPIN_TH=32.85
+PRIMER_RIGHT_1_HAIRPIN_TH=33.13
+PRIMER_LEFT_1_END_STABILITY=3.8600
+PRIMER_RIGHT_1_END_STABILITY=4.0000
+PRIMER_PAIR_1_COMPL_ANY_TH=0.00
+PRIMER_PAIR_1_COMPL_END_TH=0.00
+PRIMER_PAIR_1_PRODUCT_SIZE=139
+PRIMER_PAIR_1_PRODUCT_TM=84.2
+PRIMER_PAIR_2_PENALTY=0.068823
+PRIMER_LEFT_2_PENALTY=0.035458
+PRIMER_RIGHT_2_PENALTY=0.033366
+PRIMER_LEFT_2_SEQUENCE=CCATCAGGGGATTCGTAGCC
+PRIMER_RIGHT_2_SEQUENCE=AAGGTTTTGCAACGCCCATC
+PRIMER_LEFT_2=638,20
+PRIMER_RIGHT_2=778,20
+PRIMER_LEFT_2_TM=59.965
+PRIMER_RIGHT_2_TM=59.967
+PRIMER_LEFT_2_GC_PERCENT=60.000
+PRIMER_RIGHT_2_GC_PERCENT=50.000
+PRIMER_LEFT_2_SELF_ANY_TH=0.00
+PRIMER_RIGHT_2_SELF_ANY_TH=13.19
+PRIMER_LEFT_2_SELF_END_TH=0.00
+PRIMER_RIGHT_2_SELF_END_TH=0.00
+PRIMER_LEFT_2_HAIRPIN_TH=0.00
+PRIMER_RIGHT_2_HAIRPIN_TH=33.13
+PRIMER_LEFT_2_END_STABILITY=3.9300
+PRIMER_RIGHT_2_END_STABILITY=3.5100
+PRIMER_PAIR_2_COMPL_ANY_TH=0.00
+PRIMER_PAIR_2_COMPL_END_TH=0.00
+PRIMER_PAIR_2_PRODUCT_SIZE=141
+PRIMER_PAIR_2_PRODUCT_TM=84.3
+PRIMER_PAIR_3_PENALTY=0.068823
+PRIMER_LEFT_3_PENALTY=0.035458
+PRIMER_RIGHT_3_PENALTY=0.033366
+PRIMER_LEFT_3_SEQUENCE=CCATCAGGGGATTCGTAGCC
+PRIMER_RIGHT_3_SEQUENCE=GAAGGTTTTGCAACGCCCAT
+PRIMER_LEFT_3=638,20
+PRIMER_RIGHT_3=779,20
+PRIMER_LEFT_3_TM=59.965
+PRIMER_RIGHT_3_TM=59.967
+PRIMER_LEFT_3_GC_PERCENT=60.000
+PRIMER_RIGHT_3_GC_PERCENT=50.000
+PRIMER_LEFT_3_SELF_ANY_TH=0.00
+PRIMER_RIGHT_3_SELF_ANY_TH=13.19
+PRIMER_LEFT_3_SELF_END_TH=0.00
+PRIMER_RIGHT_3_SELF_END_TH=4.91
+PRIMER_LEFT_3_HAIRPIN_TH=0.00
+PRIMER_RIGHT_3_HAIRPIN_TH=33.13
+PRIMER_LEFT_3_END_STABILITY=3.9300
+PRIMER_RIGHT_3_END_STABILITY=4.0000
+PRIMER_PAIR_3_COMPL_ANY_TH=0.00
+PRIMER_PAIR_3_COMPL_END_TH=0.00
+PRIMER_PAIR_3_PRODUCT_SIZE=142
+PRIMER_PAIR_3_PRODUCT_TM=84.4
+PRIMER_PAIR_4_PENALTY=0.068983
+PRIMER_LEFT_4_PENALTY=0.036306
+PRIMER_RIGHT_4_PENALTY=0.032678
+PRIMER_LEFT_4_SEQUENCE=AACTCGCTTTAGTGGGTGGG
+PRIMER_RIGHT_4_SEQUENCE=ATCCGTTAGCAGAGGCATCG
+PRIMER_LEFT_4=676,20
+PRIMER_RIGHT_4=798,20
+PRIMER_LEFT_4_TM=59.964
+PRIMER_RIGHT_4_TM=59.967
+PRIMER_LEFT_4_GC_PERCENT=55.000
+PRIMER_RIGHT_4_GC_PERCENT=55.000
+PRIMER_LEFT_4_SELF_ANY_TH=0.00
+PRIMER_RIGHT_4_SELF_ANY_TH=0.00
+PRIMER_LEFT_4_SELF_END_TH=0.00
+PRIMER_RIGHT_4_SELF_END_TH=0.00
+PRIMER_LEFT_4_HAIRPIN_TH=38.49
+PRIMER_RIGHT_4_HAIRPIN_TH=44.61
+PRIMER_LEFT_4_END_STABILITY=4.6100
+PRIMER_RIGHT_4_END_STABILITY=3.8400
+PRIMER_PAIR_4_COMPL_ANY_TH=0.18
+PRIMER_PAIR_4_COMPL_END_TH=0.00
+PRIMER_PAIR_4_PRODUCT_SIZE=123
+PRIMER_PAIR_4_PRODUCT_TM=83.9
+=
+
+PRIMER_ERROR=Input line with no '=': ; Final record not terminated by '='
+=
+primer3_core: Input line with no '=': ; Final record not terminated by '='
+(primer3) srv7357@oedipus:~$ primer3_core McyE_sequence_hybprobe.txt
+SEQUENCE_ID=Microcystis_aeruginosaMcyE
+SEQUENCE_TEMPLATE=ATGGTTGAGAGTATAGATTACAAAAAATTAATGGCAACGACCTTAAGCAAAATGGAGGTCATGCAGGCTCGTATCAATGAATTAGAGACGAGACAAAGTGAAGCTATTGCGGTGGTTGGGATGGCTTGTCGTTTTCCTGGAGGTATTAATTCCCCAGAAAAATATTGGAGTTTTTGTCAAGCCGGGCTTGATGCTATAGTAGAAGTTCCTAAAAGCCGTTGGGATATCTCAAAACTGTATTCTCAAGAACCAACTTTAGGAAAAATGAACACCGCTTATGGTGGATTTCTTCAAGAGAATATCACAGAATTTGATGCCCGTTTCTTTTCGATCTCAGCAAGAGAAGCAGCCTCCATGGATCCTCAACAAAGGTTACTCTTAGAAGTTGCTTGGGAAGCGTTAGAAAATGCCAATTTACCTCTGAAAAATTTAGCCGATAATAAGGTAGGGGTATTTGTGGGGATTACTAGCATTGATCATGCTCTGAAGGTTTACGGCACAAACTATGATCAAATTGACTCTTTTTTTGGCACCGGCAATGCTCTAAGCGCAGCCGCCGGAAGGCTATCTTATTTTCTCAATCTTCACGGTCCTTGTCTCTCCATTGATGCAGCCTGTGCATCCTCATTAGTAGCCGTCCATCAGGGGATTCGTAGCCTGAGAAATCGTGAATGTGAACTCGCTTTAGTGGGTGGGGTAAACCTCATTTTAGAACCCGCCATTACGATTAGTCTTTCTCAGTCGGGAATGATGTCCCCCGATGGGCGTTGCAAAACCTTCGATGCCTCTGCTAACGGATATGTGCGAGGGGAAGGCTGTGGGGTTTTAATCTTAAAAACTTTATCAGAAGCCCAGAAAAACGGGGATCACATTCTTGCCCTGTTGCGAGGTTCGGCGGTGAATCATAATGGGGCTGCTGCCGGTTTAACCGTACCCAGTGGACCCGCCCAGCAAGAATTGCTCCGTCAAGCTCTAGCTGATGCCAGAATAGTCCCTGAAGATGTCAGCTACATAGAAGCTCATGGCACAGGCACTTCTTTAGGAGATCCCATCGAATTGAATGCCATTGCATCAGTTTATGGAAAGCGCTCCGACCCTCTTTATATCGCCTCAGTGAAAACCAATATCGGTCATCTTGAAGCCGCAGCTGGCATGGCCGGAATAATCAAAACAATTCTGATTCTTCAACAGGGTGAAATCCCCTCCCATCTTCACTTACAAAGCCCTAATCCTCTGATTAATTGGGAAGATCATCCTATTAAAATTCCTACTCAAAATATACCTTGGCCGAATAACAATAAAGTCCCTATAGCTGGGGTAAGTTCTTTTGGGTTTTCTGGCACAAATGCCCATGTCATTGTTCAACAAGCACCCGTCAGCAAAATCTCAGAAATTCAACAACAAATTCCTAGTCATCTCTTAACTCTTTCAGCCCACAACAAAACCGCTTTAAAAGAATTAGCTAAACGTTTTCATACCCTCCTAGAATCTCATCCTGAAATTGGAGATATTTGTTATAGTGCAGCTGTCGGCAGGATAGATTTACCTGAACGTTTAGCCATTGTTGGCGATACTTGTCCAGAATTACAACAAAGATTAGCCGCTTTTGCTGAAGAAAACCCGCTTGATGATTTGACTTTTTATCAACGTTTTACATCGGAAAAATCCCCTAAAATTGTTTTTCTTTTTACAGGGCAAGGGGCTTGTTATCCTGGCATGGGACATCAACTCTATCAAACTCAGCCGACATTTCGTCAATATATTGATCAATGTGCCGAAATATTAGCGAAGTATTTAGACCATCCTTTAACTGAAATATTATTTGGTGAACAGACCGATTTACTCAATCAAACTGCTTACGCTCAACCGGCTATATTCGCCCTAGAATATTCCCTAACAATGCTATGGAAATCTTGGGGAATTACCCCCAGTTTACTGATTGGCCATAGTGTGGGAGAATATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGGCTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGACATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+PRIMER_TASK=pick_hyb_probe_only
+PRIMER_PICK_LEFT_PRIMER=1
+PRIMER_PICK_INTERNAL_OLIGO=0
+PRIMER_PICK_RIGHT_PRIMER=1
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_INTERNAL_EXPLAIN=considered 101427, GC content failed 1780, low tm 86000, high tm 1395, high hairpin stability 2791, long poly-x seq 448, ok 9013
+PRIMER_LEFT_NUM_RETURNED=0
+PRIMER_RIGHT_NUM_RETURNED=0
+PRIMER_INTERNAL_NUM_RETURNED=5
+PRIMER_PAIR_NUM_RETURNED=0
+PRIMER_INTERNAL_0_PENALTY=0.023710
+PRIMER_INTERNAL_0_SEQUENCE=GTTGCGAGGTTCGGCGGTGA
+PRIMER_INTERNAL_0=881,20
+PRIMER_INTERNAL_0_TM=59.976
+PRIMER_INTERNAL_0_GC_PERCENT=65.000
+PRIMER_INTERNAL_0_SELF_ANY_TH=5.12
+PRIMER_INTERNAL_0_SELF_END_TH=0.00
+PRIMER_INTERNAL_0_HAIRPIN_TH=36.92
+PRIMER_INTERNAL_1_PENALTY=0.024217
+PRIMER_INTERNAL_1_SEQUENCE=CTGTTGCGAGGTTCGGCGGT
+PRIMER_INTERNAL_1=879,20
+PRIMER_INTERNAL_1_TM=59.976
+PRIMER_INTERNAL_1_GC_PERCENT=65.000
+PRIMER_INTERNAL_1_SELF_ANY_TH=5.12
+PRIMER_INTERNAL_1_SELF_END_TH=0.00
+PRIMER_INTERNAL_1_HAIRPIN_TH=36.92
+PRIMER_INTERNAL_2_PENALTY=0.027711
+PRIMER_INTERNAL_2_SEQUENCE=CAGTGGACCCGCCCAGCAAG
+PRIMER_INTERNAL_2=935,20
+PRIMER_INTERNAL_2_TM=59.972
+PRIMER_INTERNAL_2_GC_PERCENT=70.000
+PRIMER_INTERNAL_2_SELF_ANY_TH=0.00
+PRIMER_INTERNAL_2_SELF_END_TH=0.00
+PRIMER_INTERNAL_2_HAIRPIN_TH=32.72
+PRIMER_INTERNAL_3_PENALTY=0.084567
+PRIMER_INTERNAL_3_SEQUENCE=CGGCTGTTCGCATTGCTCGC
+PRIMER_INTERNAL_3=4912,20
+PRIMER_INTERNAL_3_TM=59.915
+PRIMER_INTERNAL_3_GC_PERCENT=65.000
+PRIMER_INTERNAL_3_SELF_ANY_TH=4.30
+PRIMER_INTERNAL_3_SELF_END_TH=0.00
+PRIMER_INTERNAL_3_HAIRPIN_TH=39.23
+PRIMER_INTERNAL_4_PENALTY=0.105196
+PRIMER_INTERNAL_4_SEQUENCE=TACCCAGTGGACCCGCCCAG
+PRIMER_INTERNAL_4=931,20
+PRIMER_INTERNAL_4_TM=59.895
+PRIMER_INTERNAL_4_GC_PERCENT=70.000
+PRIMER_INTERNAL_4_SELF_ANY_TH=8.58
+PRIMER_INTERNAL_4_SELF_END_TH=0.00
+PRIMER_INTERNAL_4_HAIRPIN_TH=32.72
+=
+
+PRIMER_ERROR=Input line with no '=': ; Final record not terminated by '='
+=
+primer3_core: Input line with no '=': ; Final record not terminated by '='
+(primer3) srv7357@oedipus:~$ conda deactivate
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  McyE_sequence_hybprobe.txt  sequence.fasta
+srv7357@oedipus:~$ rm McyE_sequence_hybprobe.txt
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  sequence.fasta
+srv7357@oedipus:~$ exit
+logout
+Connection to oedipus.bioinformatics.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/McyE_sequence_hybprobe.txt srv7357@oedipus.bioinformatics.rit.edu:/home/srv7357
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+McyE_sequence_hybprobe.txt                                                                                    100%   10KB 500.1KB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@oedipus.bioinformatics.rit.edu
+RIT information technology resources are for the use of the RIT community only.
+By using RIT information technology resources you acknowledge that you have read
+and comply with RIT's Code of Conduct for Computer and Network Use and RIT's
+Information Security Policy and Standards. Use of RIT information technology
+resources may be monitored and unauthorized use is strictly prohibited.
+srv7357@oedipus.bioinformatics.rit.edu's password:
+Linux oedipus 6.12.63+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.63-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb 11 14:25:18 2026 from 129.21.71.61
+srv7357@oedipus:~$ ls
+Lab2  Lab2_cl  McyE_sequence.fasta.txt  McyE_sequence_hybprobe.txt  sequence.fasta
+srv7357@oedipus:~$ conda activate primer3
+(primer3) srv7357@oedipus:~$ primer3_core McyE_sequence_hybprobe.txt
+SEQUENCE_ID=Microcystis_aeruginosaMcyE
+SEQUENCE_TEMPLATE=ATGGTTGAGAGTATAGATTACAAAAAATTAATGGCAACGACCTTAAGCAAAATGGAGGTCATGCAGGCTCGTATCAATGAATTAGAGACGAGACAAAGTGAAGCTATTGCGGTGGTTGGGATGGCTTGTCGTTTTCCTGGAGGTATTAATTCCCCAGAAAAATATTGGAGTTTTTGTCAAGCCGGGCTTGATGCTATAGTAGAAGTTCCTAAAAGCCGTTGGGATATCTCAAAACTGTATTCTCAAGAACCAACTTTAGGAAAAATGAACACCGCTTATGGTGGATTTCTTCAAGAGAATATCACAGAATTTGATGCCCGTTTCTTTTCGATCTCAGCAAGAGAAGCAGCCTCCATGGATCCTCAACAAAGGTTACTCTTAGAAGTTGCTTGGGAAGCGTTAGAAAATGCCAATTTACCTCTGAAAAATTTAGCCGATAATAAGGTAGGGGTATTTGTGGGGATTACTAGCATTGATCATGCTCTGAAGGTTTACGGCACAAACTATGATCAAATTGACTCTTTTTTTGGCACCGGCAATGCTCTAAGCGCAGCCGCCGGAAGGCTATCTTATTTTCTCAATCTTCACGGTCCTTGTCTCTCCATTGATGCAGCCTGTGCATCCTCATTAGTAGCCGTCCATCAGGGGATTCGTAGCCTGAGAAATCGTGAATGTGAACTCGCTTTAGTGGGTGGGGTAAACCTCATTTTAGAACCCGCCATTACGATTAGTCTTTCTCAGTCGGGAATGATGTCCCCCGATGGGCGTTGCAAAACCTTCGATGCCTCTGCTAACGGATATGTGCGAGGGGAAGGCTGTGGGGTTTTAATCTTAAAAACTTTATCAGAAGCCCAGAAAAACGGGGATCACATTCTTGCCCTGTTGCGAGGTTCGGCGGTGAATCATAATGGGGCTGCTGCCGGTTTAACCGTACCCAGTGGACCCGCCCAGCAAGAATTGCTCCGTCAAGCTCTAGCTGATGCCAGAATAGTCCCTGAAGATGTCAGCTACATAGAAGCTCATGGCACAGGCACTTCTTTAGGAGATCCCATCGAATTGAATGCCATTGCATCAGTTTATGGAAAGCGCTCCGACCCTCTTTATATCGCCTCAGTGAAAACCAATATCGGTCATCTTGAAGCCGCAGCTGGCATGGCCGGAATAATCAAAACAATTCTGATTCTTCAACAGGGTGAAATCCCCTCCCATCTTCACTTACAAAGCCCTAATCCTCTGATTAATTGGGAAGATCATCCTATTAAAATTCCTACTCAAAATATACCTTGGCCGAATAACAATAAAGTCCCTATAGCTGGGGTAAGTTCTTTTGGGTTTTCTGGCACAAATGCCCATGTCATTGTTCAACAAGCACCCGTCAGCAAAATCTCAGAAATTCAACAACAAATTCCTAGTCATCTCTTAACTCTTTCAGCCCACAACAAAACCGCTTTAAAAGAATTAGCTAAACGTTTTCATACCCTCCTAGAATCTCATCCTGAAATTGGAGATATTTGTTATAGTGCAGCTGTCGGCAGGATAGATTTACCTGAACGTTTAGCCATTGTTGGCGATACTTGTCCAGAATTACAACAAAGATTAGCCGCTTTTGCTGAAGAAAACCCGCTTGATGATTTGACTTTTTATCAACGTTTTACATCGGAAAAATCCCCTAAAATTGTTTTTCTTTTTACAGGGCAAGGGGCTTGTTATCCTGGCATGGGACATCAACTCTATCAAACTCAGCCGACATTTCGTCAATATATTGATCAATGTGCCGAAATATTAGCGAAGTATTTAGACCATCCTTTAACTGAAATATTATTTGGTGAACAGACCGATTTACTCAATCAAACTGCTTACGCTCAACCGGCTATATTCGCCCTAGAATATTCCCTAACAATGCTATGGAAATCTTGGGGAATTACCCCCAGTTTACTGATTGGCCATAGTGTGGGAGAATATGTAGCAGCTTGTATCGCAGGAGTATTTAGCTTAGAAGCTGGACTCGCCTTAGTTGTCAAACGGGGGCAATTAATGCAAACCACGACCTCTGGGAAAATGGCTTCAATTTTTGCTGATGAAGAGACAGTAATTTCCCTAATTAAAAATTATACTCAAACAGTTTCAATAGCTGCCATTAATCACCCTCAACAGATTGTTATTGCTGGAGAAAGTGCCAGCCTTGAGGAAGTTATTAGCACCTGCAAAAAGCAAAAAATTCCCGCTCAATATCTCCCCGTTACTCAGGCTTTTCATTCCCCTTTAATGGAGCCAATTTTAAAAGAATTTGAAAAAGAGGCTCGTCAAATTTCTTATCAACGCCCCCAAATTCTCTTACTTTCAGGACTTGATGGAGAGGTTTTAGAAAATGCACCAGATGCCACTTACTGGAGCAAACAATGCCGAGAACCAGTAAGATTTTTGTCGAGTTTAATAACCGCTTTCAACAAGGGATATAACCTATTTTTAGAAGTGGGACCAAGACCAATACTGGCAGAACAAGGTCGTCGTTATAAAGATGAGGTCATCTGGTTAAGTTCTCTCAATCGTGGCTTAGATAACTGGCAGACAATTCTTTCAGCCTTGGGACAACTCTACCTAAATGGCGCACCTTTCAATCCAGAACAATTCAATCGAAATTATGGCTATAAAAAAGTCAGATTGCCGAACTATCCCTTTCAAAGGAAACCTTTCCAATTTCAGCCTAATCCTCGAACAGAAAATCAGAGCATTGACAAAATATTCCTAGACGCACAAACCTCTAACCTTACCGATACCGAAACCACAGTTTTCAATATGCAAAAACATCAACAGGAAATCCGTAATCAATTAAAATCAATTTTGGCTTTACTTCTGAAAGAAGATGAGAACGAACTGCCGGAGGATGAGACATTACTAAACTTAGGAGCAGACTCAATTATCTTGACTGACTTTTCTCGCAAAATTGAAGAAAAATTTCAAGTCAAAGTGAAAATAGATCAACTCTTTACCGATTTACAAACTCTTGTTGATATCGCCGAATACCTCTGCCAATTTGTCAAAGAAAAACCCTTAGAAAATGCTTCAGAAATAACAGCTAAAGTTATCGATGACGAGACAGAATTAAGCAATTATCTGCAAGTCATTGATCAATTGCAACCCATCGCTACAGCCTATATCATCAAGGCTTTAGAGTCCTTAGGGAAAAAACTTAATCAAGGGGAACAATGGACAATAGAAACCCTAAGACAAACCTTACCTGTTGCCCCCAAATATCACATTTTGCTCAATCGTTATTTGCAGGATTTAGAGCAAGCTAATATTCTTCACAATCAAGGGAATATTTGGACTGTCAAAAACTTGCCTGAGTCTTTTTCCTTGCCCCAAGCCCTACAAAAGCTAGAAAAAACTTGTCCATCTGCAAAACCTGAATTAGAAATGTTGCAACGCTGCGGCGAAAATTTAGCAGAAGTTCTCAAGGGAAATATGGACCCCTTGACATTAATTTTCCCAGAAGGTTCCGTTGCTCATGCAGAAAGTATTTATGGCAATTCTCCCGTATCTCGATTGATGAATCAACGAGTTGCCCAAGCTATTAACCAGATTTTAACGAACTTTTCTAATAGTGATCGCCCCTATCAAATTCTCGAAATAGGAGGAGGAACTGGTGCCACTTCAGAAGCAATTCTTCACCACTTAAACCTCGATCATGTCACTTATTCTTTTAGCGAAGTTTCTCCCTTCTTACTGCATCAAGCTAGGCAAAAATTTCAGAAAAAATATAACCTAAACTTTCATCAACTAGACATTGAAAAGTCCCCCATTTCTCAGGGTATACCTGCCCATAATTATCATATTGTTGTCGCCGCTAACGTCCTTCATGCGACCCGAAATATTACAGAAACTCTAACCCATATTCGGGAACTTCTGCGCCCCGGCGGTTACTTAGTTCTCCTCGAAACCGTAGAAAATAACTCATGGCTGAATTTAACCTTTGGATTAACCCCCGGATGGTGGCGCTTTCAGGATCAAGAATTACGCTCAGACACTCCCTTATTAAGGGGTGAAAATTGGTGTTCCGTTTTAAAAAGTTGTGGGTTTGCTACGGCGAATAGTTTCTCTAAACAAAACAATATTCCCATTAACAATGGCCAAGAATTAATTCTTGCTTGTGTGCCAGATGAACCCCTCTCAATTCCTGCAAGGACTAAGCTTACTGTCTCCGGTGAAAGCTCCGGTAAAGAAGCCTTAATGATGGCTCAATTACAATCTTTAAAAGACCTAAAAGACCTCCATGAGAAAACCATTATCAAGCAATTAGAAGTTCTTCAAACTGCCACCGTCTCCCCCAGTATAGCCCCCGAAATATTAACGAATCAGACTCAAATCATTCCTGCCCAAAGCTCTAAAATAGAAACTTACCCGCCGGTTTCTCAAGAGAAGCCCAAATCTCCTGAGAAACCTAGTTCTCCCAATTTAAACCCCTTAGCCTTAAAGCTCACTGAGAACAAATCCTTAACCGAACAACAACAAGCCTTTATTCAAAATTTACAGAGTATTTATAACCAGAAAACCGCCAAATCAAAAGCCTATTCACAAAATAGCCGTAAGACAATGGTAGATGTTAAACCGACCATTGACTTCCGCATGGCCTTAAAAGAATTTCAATATCCGATTGTTTCAGAATCCGCTCAAGGGGCTTATTTTAAGGACATTGATGGCAATAATTACATTGACTTAGCTATGGGGTTTGGGGTTAACTTTTTTGGGCATAGTCCTGATTTTGTCATTGAAGCAGTTCAAGAACAAATGAATCGAGGAATAGGCTTAGGAATGCAGTCAAATCTGGCCGCCGAAACCGCCGCTTTAATTAGTGAAATGGGCCGAGTCGAAAGAGTCGCTTTTAGTAATACGGGAACCGAGGCGATTATGGCGGCTGTTCGCATTGCTCGCTCCCGGACAAAACGTCAAAAAATCGTTATGTTTGCCGGCTCCTACCATGGAACTTTTGACGGCATCTTAGCACGAGTAGGAGAAGATAAAACCACTGCTCAACCCTTAAGTCTAGGCACCCCTTTAGGAATGGTTGAAGACGTAATAGTCTTGAGTTATGGAGTTGAAGAAAGCCTCGATATTATTGCTACTCATGCTGATGATTTAGCCGCCGTATTAGTCGAACCAGTTCAAAGTCGCAAACCCGATTTACAGCCTCAAGAATTTCTGCAAAAACTACGACAAATAACCCATAAAAAAGGGATCACACTCATTTTTGATGAAATTATTACCGGCTTTCGGATTGCTCCGGGAGGAGCGCAAGAATGGTTCAATGTTGAAGCTGATATAGTCATTTATGGTAAGGCCATTGGAGGAGGTTTACCAATTAGTATGATCTGCGGTAAAGCAGATTTCTTAGATACCGTTGACGGCGGTTTCTGGCAATACGGAGATGACTCTCATCCCCAAACCGAGTTAACCGCTTTTGGGGGAACTTTTTGTCGTCATCCTTTAGCCCTTGCTGCTTGTCGTGCTGTGCTGTTACATCTTCGGGAAAACAGCCCAACGATTCAAGAAAAAGTGAATCAATTAACTCATCGATTAGCCACCGAAGTTAATCAGTTTTTTCAAGAAATAGGCATTCCGATTCGGGTTGTTAATTTTGGGTCTTTATTCCGCTTTGAACCCTTTGGAGCTTATAGTATTTTCTTACAACCCATCGAATTACCCCTCTTTTATTACCTATTAAATCTTAAAGGAATCTACACATGGGAAAAACGAGTTTGTTTTCTCTCCACCTGCCATACTAATGAAGATATAGACAAAGTTATAGTAGCCGTCAAAGAAGCGATTACGGAATTGCAGCAAGCTGGTTTTTTTGCTAATGCTAAACGCCCTCAAGTCAAGAAAGAAGAAAAAAAGCCCCTCTCTGAAGATGAAGATGGTAGGGGACATCTACCATCTTTAAATCAATCCTTTCCCACCAGTGAAGCTCAACGTCAGCTTTGGTTATTAGCTGAATTAGACCGTAATGCTTCAGCATCCTATAACGTCACAACATCCCTAGAATTACGAGGTTCTTTAGATGTTTACATTTTAGAAAAAACGATTAATCAAGTTATTAATCGCCATGAAGCTTTGCGAACCCAAATTATAGAACAAGGAGAATTACAGGAAGTTGTCAATCAAGTTAACATTAAATTAAAACTAATTAATTTGAAGGATGAAGATAATCCCGAAGCGACGGCCTTAGCGTTACGATCTCAGTTTTCCCAAAAACCCTTTGACTTGTCGATTGCTCCCTTATTTGCTGTGATTTTAATGCGCTTAAAACCTGACCATTATCTGCTGTCTTTAAAAACTCATCATATTGTGGCAGATGGTTGGTCACTAGGATTAATTTTGCAGGAAATTGGTCAACTTTATTCATCCCAAAATAACACAACTAAAGAGGTTCTCACACCACCGATGCAGTTTCGGCAATATTTAACTTTGCGAGCGCAAGAGACGCAAAGTCCACAAATGTTAGAGCATCGGGATTTTTGGTTGAAAACCTATCAGGAAGATCTCCCAACCTTTGAGCTTCCCACCGACTTTCCCCGTCCCGCCGTTAAAACCTACACTGGCGGACAAGAAAGTCAAGTCATTCCCTCTGAAGTTGGGCAAAATTTGCAGAAAGTAGGACGCAAAAATAAAGCTACATTATTTATGACGATGTTCGCCGCTTATACTGCTTTTTTGCGTCGAATTTCTGGTCATAAGGATTTAGTCATTGGTATTCCTATTTCTGGGCGACAAATAGAAGGCAGTGACAACTTAGTAGGCTTTTGTTCTCAATTTTTACCCCTGCGGATACAAGTCGATGCTACCACCTCTTTTATTGAACATTTACAACATACTAAACAAACCCTGATCGACGCTTTTCGCCATCAGAGTTATACTTTAGAGGATTTATTAGCAGCTTTACAATTACCTAGAGATTTTTCTCGTTCTCCTCTCATTTCTGTATCTTTTAACATGGATCCTAGTTTAACTCTGCCTGAGTTTAAAGACTTAAAAGTATCCTTGCCACCGTCACCAATTAGTTACACCCCTTTTGATCTAGGATTTAACTTAATTGAACTTAATGATAACCTCATTATTTACTGCAATTACAATACAGAACTATTTAAAAAAGAGACAATTAAACAATTTCTTGAAAGCTTTGAAATTTTGCTGAGGGGAATCATTGACGATGCTAATCATCTCCTTTATCAGTTACCTTTATTAACCCCAGTCCAACAAGAGAAGTTACTCAGACAATTAACGGGAAAAACTCGCAAACTCCCTGAAAAAGCCACCATCATTGATGACTTTGTAGCTCAAGTTAAATTAACCCCTAATGCTCCCGCCTTAATTGCGGGAAAAATTAGCCTTAGCTATCAAGAATTAAATGAAAAAGTCAATCGTCTTACTCATTATTTACAGCAGGAATATCAGCTAGGTGTAGGAAAAGTGATTGGGGTCATGCTCCAGCGTAATCACAACTTAATCATCGGGATTCTGGCTACCTTTAAAACTGGAGCGACTTACGTTCCTATAGACTCTCAATATCCTCACAGTCGCATTGAGTTTATTTTAAAAGATAGTGGCTGTCATGTTTGCCTAACGGAGAGTAATTTTATCTCTAAGTTACCTGAAAAAATGGAGAAAATTTGCTTAGATAAAATCGATCCTATTGTTGAAAAATATGACAAAGATGAGCCTAAAATATTTCGCGATTCTAGCCAAACTGCTTATATTTTTTACACTTCAGGTTCAACTGGTAATCCTAAAGGAGTCATGGGCCGTCACATCTCAATTTTGAATGTTATTCAAAGCTTACGACTTACCTTTGATTTAGATAAACATCCTGAATGGCGCTATATTTTCACAGCTGCCGTTACTCATGATCCATCTATTCGTAATATTTTTCTCCCCTTAACCATAGGTGCATCCCTATATATGTACGAAATAAAATATATAGGACATTTGGTTTCTTTCCTACAGGAAAATCAAATTAATGCCCTACACACCACCCCATCTATCTATCGAGAAATCTTGGGGCTACTTGAACCAGGAGAAACCATTTCCAGCTTAAAATATATCTCGGTAGGAGGGGAAAAATTAGATCGGGAAACTGCCTTAGCTTTACGGAAACGTTTTCCAGCAGAAATTATTAGCAATGTCTACGGATCTACAGAAACTTGTGTGGGAGTATCCCAGTATGAAATCAAGGAAAACTTAGACAGCGAAATCCCCCTCGGTCAAGTTTTCCATAACAATCGCTTAGGGGTTCTTGATGAATTTAATAATCCCGTTCCCCTCCATGTAATCGGCGAAATTTGTGTAGAAGGTGCCGCCCTAGCATCGGGTTATCATAACCAACCCGAAATGACTCAAGAAAAATTTAAACCTAGCTTTCTTGATGAGACAAAAACTCTCTTTAGAACCGGCGATTTAGGCAAGCAAACTGCTCCCGGTATCATTGAGTTTATGGGACGAAAAGATAATCAAGTTAAGGTCAATGGTTATCGAATTGACCCCGGAGAAATTGAATATCAATTGACTCGTTATGCTCCCATTGAAAGAGCGATTGTTTTACCCGTTCAAGTGAATAATCAAACTCAATTATCTGCTTACTGTCAAACAGACAAAACTCTAGAAATTGCTGAGATTCGAGAATTTCTTGCCAAGTTTTTGCCAGTTTATATGATTCCCAGTTACTTTATTTTTTTAAAGCAATTCCCCTTAACTCGACATGGGAAACTTGACCTGCACTCCCTGAGAGAACTCAAAGAAACCAGTAAATCTCTGGTTAATTCTAATTATGTTGCACCCCGTAATCATTTAGAATCCAATCTCGTTAGTATCTGGGAAAAAATTCTCTCTAAACATCCTATCGGTATTTTTGATAACTTCTTTGAAATTGGCGGTCATTCTCTACTCTTATCAAGGGTTGTAACCCGGGTTCATAAAGAACTAAATGTATCCGTAAAATTGGCTGACTTCTTTAAAGTTCCAACCGTTGCTGGATTGGCGACTTTAATCTCCCAGACTCAATACAATTATCAAGAACCCATTTCGGCAATTCCCCCCCAAAAATCTTATCCGATGTCTCATGGTCAGCGTCGTCTTTGGGCTTTAGAATTCCTAGATCAAAATCATAATGCTTACGGAATGCCCAGTGCTTATCAATTCAAGGGCAATCTCAATATTGACGCTTTTGAAAATGCCTTTCAACAGTTAATTCAACGCCATGAAATTTTGCGGACAACCTTTACTTTAATCAATAATCAACCCCGTCAAGTTGTCCATAATCAAATGAACTTTGTCATTAAACAAATAGACCTGACAGCTTATGTTAGCACAGAACAAGAAAACTTGATCGAAGAAGCGATCAGCCATAATGCCAAAACGACTTTTGATTTAGAAGTCGGACCGTTACTTAAAGTTAACTTACTTAAACTAAGCCAAGAGAATTACATCGTCTTGTTTAATATGCACCATATCATTTCTGATGGTTGGTCAGCAGGGGTTTTAATTAAAGATTTCCTCAGCCATTATCACGCCTATGGACAAGAAAATTCCCAATTAATGCCCCCTCTCAGAATTCATTATAAAGACTATACTTCTTGGCAAGAAAGTCAATTAGAAACCTCGAAACTTCAAGATCAACGGGATTACTGGTTAGCTAAATTAACTCCTGTCCCTGTGCGTCTTAACTTACCTGTTGATTATCTGCGCCCACCTGTTAAAAGTTTTCAAGGAAATACAATTACATGGCAACCTGAACCCGAATTGATCGATACTTTTGAGAAGTTAGTTAAAGCACAAGAAGCCAGTTTATTTATGGGTTTAGTTAGTTTGGTTAAGAGTTTTCTATTCCGTTATACTGAGCAAAATGAAATTACAATCGGCTCTGCCATCGCCGGCAGAAATCATCCTGATTTAGAAGATCAAATCGGATTTTATGTTAACACTCTCGTCCTGCGGGATCAGATAGCAGATCACGACAGTTTTACGGATGTCCTTAGCAAAGTAAAAACAACCACTTTAGAGGCTTATGATAATCAAGACTATCCCTTTGATCAGATCGTATCTGATTTGAATTTACAACGAGATCCTAGCCGGAATGCTCTCTTTGATGTGGCAATTGTCCTGCAAAATAATCAAAATATAGATCTGGCCTTGAACGGAATTACAGTGAACTCCATTGACCCCAAAATGATGACCGCTAAATTTGATTTAGAATTTATCTTTGTTGAGGAAGAAGAACTTTATCTCAAGCTAATCTACAACACAGATATATTTATCCATGAGCGAATTTTATTGCTCATAGATTTGTTCAAAAACTGGCTAGAGCAAGTTTTAAAATTTGCCCATGAACCTTTGATAAACTTATCCTTAGCTTCCTCAGAAAATCTTATTCAAGAGGGGCAGGATCTGTTCACAGAAGATTTTAATTTTTAG
+PRIMER_TASK=pick_hyb_probe_only
+PRIMER_OPT_SIZE=20
+PRIMER_MIN_SIZE=18
+PRIMER_MAX_SIZE=22
+PRIMER_PRODUCT_SIZE_RANGE=75-150
+PRIMER_EXPLAIN_FLAG=1
+PRIMER_INTERNAL_EXPLAIN=considered 101427, GC content failed 1780, low tm 86000, high tm 1395, high hairpin stability 2791, long poly-x seq 448, ok 9013
+PRIMER_LEFT_NUM_RETURNED=0
+PRIMER_RIGHT_NUM_RETURNED=0
+PRIMER_INTERNAL_NUM_RETURNED=5
+PRIMER_PAIR_NUM_RETURNED=0
+PRIMER_INTERNAL_0_PENALTY=0.023710
+PRIMER_INTERNAL_0_SEQUENCE=GTTGCGAGGTTCGGCGGTGA
+PRIMER_INTERNAL_0=881,20
+PRIMER_INTERNAL_0_TM=59.976
+PRIMER_INTERNAL_0_GC_PERCENT=65.000
+PRIMER_INTERNAL_0_SELF_ANY_TH=5.12
+PRIMER_INTERNAL_0_SELF_END_TH=0.00
+PRIMER_INTERNAL_0_HAIRPIN_TH=36.92
+PRIMER_INTERNAL_1_PENALTY=0.024217
+PRIMER_INTERNAL_1_SEQUENCE=CTGTTGCGAGGTTCGGCGGT
+PRIMER_INTERNAL_1=879,20
+PRIMER_INTERNAL_1_TM=59.976
+PRIMER_INTERNAL_1_GC_PERCENT=65.000
+PRIMER_INTERNAL_1_SELF_ANY_TH=5.12
+PRIMER_INTERNAL_1_SELF_END_TH=0.00
+PRIMER_INTERNAL_1_HAIRPIN_TH=36.92
+PRIMER_INTERNAL_2_PENALTY=0.027711
+PRIMER_INTERNAL_2_SEQUENCE=CAGTGGACCCGCCCAGCAAG
+PRIMER_INTERNAL_2=935,20
+PRIMER_INTERNAL_2_TM=59.972
+PRIMER_INTERNAL_2_GC_PERCENT=70.000
+PRIMER_INTERNAL_2_SELF_ANY_TH=0.00
+PRIMER_INTERNAL_2_SELF_END_TH=0.00
+PRIMER_INTERNAL_2_HAIRPIN_TH=32.72
+PRIMER_INTERNAL_3_PENALTY=0.084567
+PRIMER_INTERNAL_3_SEQUENCE=CGGCTGTTCGCATTGCTCGC
+PRIMER_INTERNAL_3=4912,20
+PRIMER_INTERNAL_3_TM=59.915
+PRIMER_INTERNAL_3_GC_PERCENT=65.000
+PRIMER_INTERNAL_3_SELF_ANY_TH=4.30
+PRIMER_INTERNAL_3_SELF_END_TH=0.00
+PRIMER_INTERNAL_3_HAIRPIN_TH=39.23
+PRIMER_INTERNAL_4_PENALTY=0.105196
+PRIMER_INTERNAL_4_SEQUENCE=TACCCAGTGGACCCGCCCAG
+PRIMER_INTERNAL_4=931,20
+PRIMER_INTERNAL_4_TM=59.895
+PRIMER_INTERNAL_4_GC_PERCENT=70.000
+PRIMER_INTERNAL_4_SELF_ANY_TH=8.58
+PRIMER_INTERNAL_4_SELF_END_TH=0.00
+PRIMER_INTERNAL_4_HAIRPIN_TH=32.72
+=
+
+PRIMER_ERROR=Input line with no '=': ; Final record not terminated by '='
+=
+primer3_core: Input line with no '=': ; Final record not terminated by '='
+(primer3) srv7357@oedipus:~$
