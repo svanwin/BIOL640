@@ -1,0 +1,419 @@
+Your current storage usage:
+ Used Avail Use% Mounted on
+    0  256G   0% /home/srv7357
+[srv7357@sporcsubmit ~]$ cd
+[srv7357@sporcsubmit ~]$ ls
+[srv7357@sporcsubmit ~]$ ls -1
+[srv7357@sporcsubmit ~]$ mkdir Lb2
+[srv7357@sporcsubmit ~]$ ls
+Lb2
+[srv7357@sporcsubmit ~]$ mv Lb2 Lab2
+[srv7357@sporcsubmit ~]$ ls
+Lab2
+[srv7357@sporcsubmit ~]$ exit
+logout
+Connection to sporcsubmit.rc.rit.edu closed.
+srvanwin@LAPTOP-98J85QIK:~$ scp -r :/Users/srvan/Downloads/Lab2_cl.zip srv7357@sporcsubmit.rc.rit.edu:/home/srv7357
+scp: stat local ":/Users/srvan/Downloads/Lab2_cl.zip": No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ scp -r :/Users/srvan/Downloads/Lab2_cl srv7357@sporcsubmit.rc.rit.edu:/home/srv7357
+scp: stat local ":/Users/srvan/Downloads/Lab2_cl": No such file or directory
+srvanwin@LAPTOP-98J85QIK:~$ scp -r /mnt/c/Users/srvan/Downloads/Lab2_cl srv7357@sporcsubmit.rc.rit.edu:/home/srv7357
+RIT Research Computing resources are for the use of authorized
+users only. By using these resources, you acknowledge that you have
+read and comply with RIT's Code of Conduct for Computer and Network
+Use[1], RIT's Information Security Policy and Standards[2], and Research
+Computing's Acceptable Use Policy (AUP)[3].
+
+Use of this computer system is subject to monitoring and recording by
+system personnel. Anyone using this system expressly consents to such
+monitoring and recording. Any evidence of criminal activity or
+violation of policy may be provided to the appropriate officials
+and/or law enforcement.
+
+[1]: https://www.rit.edu/policies/c082
+[2]: https://www.rit.edu/policies/c081
+[3]: https://policy.rc.rit.edu
+
+---
+
+Use of the Research Computing Cluster requires Duo MFA. Only Duo
+Mobile push and Duo Mobile codes are supported. If you have not set
+up Duo Mobile, please go to https://start.rit.edu/Duo.
+(srv7357@sporcsubmit.rc.rit.edu) Password:
+Autopushing login request to phone...
+Success. Logging you in...
+._batch_seq.txt                                                                              100%  618    73.8KB/s   00:00
+._example.txt                                                                                100%  326    30.4KB/s   00:00
+batch_seq.txt                                                                                100% 3398   308.4KB/s   00:00
+example.txt                                                                                  100%  368     7.5KB/s   00:00
+srvanwin@LAPTOP-98J85QIK:~$ ssh srv7357@sporcsubmit.rc.rit.edu
+RIT Research Computing resources are for the use of authorized
+users only. By using these resources, you acknowledge that you have
+read and comply with RIT's Code of Conduct for Computer and Network
+Use[1], RIT's Information Security Policy and Standards[2], and Research
+Computing's Acceptable Use Policy (AUP)[3].
+
+Use of this computer system is subject to monitoring and recording by
+system personnel. Anyone using this system expressly consents to such
+monitoring and recording. Any evidence of criminal activity or
+violation of policy may be provided to the appropriate officials
+and/or law enforcement.
+
+[1]: https://www.rit.edu/policies/c082
+[2]: https://www.rit.edu/policies/c081
+[3]: https://policy.rc.rit.edu
+
+---
+
+Use of the Research Computing Cluster requires Duo MFA. Only Duo
+Mobile push and Duo Mobile codes are supported. If you have not set
+up Duo Mobile, please go to https://start.rit.edu/Duo.
+(srv7357@sporcsubmit.rc.rit.edu) Password:
+
+Autopushing login request to phone...
+Success. Logging you in...
+Autopushing login request to phone...
+Success. Logging you in...
+
+Documentation:
+- RC Documentation Site: https://docs.rc.rit.edu
+- Slurm Tutorial: https://docs.rc.rit.edu/slurm_quick_start_tutorial.html
+- Storage Tutorial: https://docs.rc.rit.edu/storage_tutorial.html
+- Software Tutorial: https://docs.rc.rit.edu/software_tutorial.html
+- FAQ: https://docs.rc.rit.edu/faq.html
+
+Quick Links:
+- RC Website: https://www.rit.edu/researchcomputing/
+- Contact Information: https://help.rc.rit.edu
+- Upcoming Events: https://events.rc.rit.edu
+- Resource Utilization Graphs: https://graphs.rc.rit.edu
+- Publications: https://publications.rc.rit.edu
+- Acceptable Use Policy: https://policy.rc.rit.edu
+
+Last login: Wed Feb 11 09:48:19 2026 from 129.21.71.61
+
+[*] No news.
+    You can use "/tools/bin/news -all" to show all (even read) news.
+
+Your current storage usage:
+ Used Avail Use% Mounted on
+    0  256G   0% /home/srv7357
+[srv7357@sporcsubmit ~]$ ls
+Lab2  Lab2_cl
+[srv7357@sporcsubmit ~]$ conda list
+-bash: conda: command not found
+[srv7357@sporcsubmit ~]$ conda env list
+-bash: conda: command not found
+[srv7357@sporcsubmit ~]$ conda create --name primer3
+-bash: conda: command not found
+[srv7357@sporcsubmit ~]$ module load anaconda
+[srv7357@sporcsubmit ~]$ conda list
+# packages in environment at /tools/anaconda/3.16:
+#
+anaconda-client           1.0.2                    py27_0    defaults
+backports.ssl-match-hostname 3.4.0.2                   <pip>
+biopython                 1.66                np110py27_0    defaults
+boto                      2.40.0                    <pip>
+bz2file                   0.98                      <pip>
+cairo                     1.12.18                       6    defaults
+certifi                   2015.9.6.2                <pip>
+clyent                    0.4.0                    py27_0    defaults
+conda                     4.0.5                    py27_0    defaults
+conda-build               1.18.1                   py27_0    defaults
+conda-env                 2.4.5                    py27_0    defaults
+cycler                    0.9.0                    py27_0    defaults
+cython                    0.23.4                   py27_0    defaults
+dateutil                  2.4.1                    py27_0    defaults
+decorator                 4.0.6                    py27_0    defaults
+easydict                  1.6                       <pip>
+ffmpeg                    2.2.4                         0    file:///tools/anaconda/3.16/conda-bld/linux-64/ffmpeg-2.2.4-0.tar.bz2
+fontconfig                2.11.1                        5    defaults
+freetype                  2.5.5                         0    defaults
+functools32               3.2.3.post2               <pip>
+gensim                    0.12.4                    <pip>
+graphviz                  2.38.0                        0    defaults
+gurobipy                  5.1.0                     <pip>
+h5py                      2.5.0               np110py27_3    defaults
+hdf5                      1.8.15.1                      2    defaults
+httpretty                 0.8.10                    <pip>
+ipython                   4.0.0                    py27_0    defaults
+ipython-genutils          0.1.0                     <pip>
+ipython_genutils          0.1.0                    py27_0    defaults
+jbig                      2.1                           0    defaults
+jinja2                    2.8                      py27_0    defaults
+joblib                    0.8.4                    py27_0    defaults
+jpeg                      8d                            0    defaults
+jsonschema                2.5.1                     <pip>
+keras                     1.0.1                     <pip>
+libgfortran               3.0                           0    defaults
+libpng                    1.6.17                        0    defaults
+libtiff                   4.0.6                         1    defaults
+libxml2                   2.9.2                         0    defaults
+markupsafe                0.23                     py27_0    defaults
+matplotlib                1.5.1               np110py27_0    defaults
+mkl                       11.3.1                        0    defaults
+networkx                  1.11                     py27_0    defaults
+nltk                      3.1                      py27_0    defaults
+nose                      1.3.7                    py27_0    defaults
+numpy                     1.10.4                   py27_1    defaults
+openblas                  0.2.14                        3    defaults
+opencv                    2.4.10              np110py27_1    defaults
+openssl                   1.0.2g                        0    defaults
+pandas                    0.17.0                    <pip>
+patchelf                  0.6                           0    defaults
+path.py                   8.1.2                    py27_0    defaults
+pexpect                   3.3                      py27_0    defaults
+pickleshare               0.5                      py27_0    defaults
+pillow                    3.1.1                    py27_0    defaults
+pip                       8.1.1                    py27_1    defaults
+pixman                    0.32.6                        0    defaults
+pool                      0.1.2.dev0                <pip>
+protobuf                  2.6.1                    py27_1    defaults
+py2cairo                  1.10.0                   py27_2    defaults
+pycairo                   1.10.0                   py27_0    defaults
+pycosat                   0.6.1                    py27_0    <unknown>
+pycrypto                  2.6.1                    py27_0    <unknown>
+pydot                     1.0.28                   py27_0    defaults
+pylab                     0.1.3                     <pip>
+pymongo                   3.0.3                    py27_0    defaults
+pyparsing                 2.0.3                    py27_0    defaults
+pyqt                      4.11.4                   py27_1    defaults
+pyside                    1.2.1                    py27_1    defaults
+python                    2.7.11                        0    defaults
+python-dateutil           2.4.2                    py27_0    defaults
+pytz                      2015.7                   py27_0    defaults
+pyyaml                    3.11                     py27_1    <unknown>
+pyzmq                     14.7.0                    <pip>
+qt                        4.8.7                         1    defaults
+readline                  6.2                           2    <unknown>
+requests                  2.9.1                    py27_0    defaults
+scikit-image              0.11.3              np110py27_0    defaults
+scikit-learn              0.17.1              np110py27_0    defaults
+scipy                     0.17.0              np110py27_2    defaults
+seaborn                   0.6.0                     <pip>
+setuptools                20.7.0                   py27_0    defaults
+shiboken                  1.2.1                    py27_0    defaults
+simplegeneric             0.8.1                    py27_0    defaults
+sip                       4.16.9                   py27_0    defaults
+six                       1.10.0                   py27_0    defaults
+smart-open                1.3.2                     <pip>
+sqlite                    3.9.2                         0    defaults
+sympy                     0.7.6.1                   <pip>
+theano                    0.7.0               np110py27_0    defaults
+tk                        8.5.18                        0    <unknown>
+tornado                   4.2.1                     <pip>
+traitlets                 4.0.0                    py27_0    defaults
+wheel                     0.29.0                   py27_0    defaults
+x264                      20131217                      2    file:///tools/anaconda/3.16/conda-bld/linux-64/x264-20131217-2.tar.bz2
+xz                        5.0.5                         1    defaults
+yaml                      0.1.6                         0    <unknown>
+zlib                      1.2.8                         0    <unknown>
+[srv7357@sporcsubmit ~]$ cd
+[srv7357@sporcsubmit ~]$ ls
+Lab2  Lab2_cl
+[srv7357@sporcsubmit ~]$ conda create  --name primer3
+Error: too few arguments, must supply command line package specs or --file
+
+You can specify one or more default packages to install when creating
+an environment.  Doing so allows you to call conda create without
+explicitly providing any package names.
+
+To set the provided packages, call conda config like this:
+
+    conda config --add create_default_packages PACKAGE_NAME
+
+[srv7357@sporcsubmit ~]$ conda create --name primer3 python=3.10
+Fetching package metadata: SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.
+Solving package specifications: .
+Error:  Package missing in current linux-64 channels:
+  - python 3.10*
+
+You can search for this package on anaconda.org with
+
+    anaconda search -t conda python 3.10*
+[srv7357@sporcsubmit ~]$ conda create --name primer3 python
+Fetching package metadata: SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.
+Solving package specifications: .
+Error:  Packages missing in current linux-64 channels:
+  - python
+  - python 2.7*
+
+You can search for this package on anaconda.org with
+
+    anaconda search -t conda python 2.7*
+
+ (and similarly for the other packages)
+[srv7357@sporcsubmit ~]$ conda env list
+# conda environments:
+#
+_build                   /tools/anaconda/3.16/envs/_build
+python3                  /tools/anaconda/3.16/envs/python3
+root                  *  /tools/anaconda/3.16
+
+[srv7357@sporcsubmit ~]$ conda create --name primer3
+Error: too few arguments, must supply command line package specs or --file
+
+You can specify one or more default packages to install when creating
+an environment.  Doing so allows you to call conda create without
+explicitly providing any package names.
+
+To set the provided packages, call conda config like this:
+
+    conda config --add create_default_packages PACKAGE_NAME
+
+[srv7357@sporcsubmit ~]$ conda create --name primer3 python3
+Fetching package metadata: SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.
+Solving package specifications: .
+Error:  Package missing in current linux-64 channels:
+  - python3
+
+You can search for this package on anaconda.org with
+
+    anaconda search -t conda python3
+[srv7357@sporcsubmit ~]$ conda create primer3
+Error: either -n NAME or -p PREFIX option required,
+       try "conda create -h" for more details
+[srv7357@sporcsubmit ~]$ conda create --primer3
+usage: conda [-h] [-V] [--debug] command ...
+conda: error: unrecognized arguments: --primer3
+
+[srv7357@sporcsubmit ~]$
+[srv7357@sporcsubmit ~]$ conda create --name primer3 python
+Fetching package metadata: SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.SSL verification error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+.
+Solving package specifications: .
+Error:  Packages missing in current linux-64 channels:
+  - python
+  - python 2.7*
+
+You can search for this package on anaconda.org with
+
+    anaconda search -t conda python 2.7*
+
+ (and similarly for the other packages)
+[srv7357@sporcsubmit ~]$ conda list
+# packages in environment at /tools/anaconda/3.16:
+#
+anaconda-client           1.0.2                    py27_0    defaults
+backports.ssl-match-hostname 3.4.0.2                   <pip>
+biopython                 1.66                np110py27_0    defaults
+boto                      2.40.0                    <pip>
+bz2file                   0.98                      <pip>
+cairo                     1.12.18                       6    defaults
+certifi                   2015.9.6.2                <pip>
+clyent                    0.4.0                    py27_0    defaults
+conda                     4.0.5                    py27_0    defaults
+conda-build               1.18.1                   py27_0    defaults
+conda-env                 2.4.5                    py27_0    defaults
+cycler                    0.9.0                    py27_0    defaults
+cython                    0.23.4                   py27_0    defaults
+dateutil                  2.4.1                    py27_0    defaults
+decorator                 4.0.6                    py27_0    defaults
+easydict                  1.6                       <pip>
+ffmpeg                    2.2.4                         0    file:///tools/anaconda/3.16/conda-bld/linux-64/ffmpeg-2.2.4-0.tar.bz2
+fontconfig                2.11.1                        5    defaults
+freetype                  2.5.5                         0    defaults
+functools32               3.2.3.post2               <pip>
+gensim                    0.12.4                    <pip>
+graphviz                  2.38.0                        0    defaults
+gurobipy                  5.1.0                     <pip>
+h5py                      2.5.0               np110py27_3    defaults
+hdf5                      1.8.15.1                      2    defaults
+httpretty                 0.8.10                    <pip>
+ipython                   4.0.0                    py27_0    defaults
+ipython-genutils          0.1.0                     <pip>
+ipython_genutils          0.1.0                    py27_0    defaults
+jbig                      2.1                           0    defaults
+jinja2                    2.8                      py27_0    defaults
+joblib                    0.8.4                    py27_0    defaults
+jpeg                      8d                            0    defaults
+jsonschema                2.5.1                     <pip>
+keras                     1.0.1                     <pip>
+libgfortran               3.0                           0    defaults
+libpng                    1.6.17                        0    defaults
+libtiff                   4.0.6                         1    defaults
+libxml2                   2.9.2                         0    defaults
+markupsafe                0.23                     py27_0    defaults
+matplotlib                1.5.1               np110py27_0    defaults
+mkl                       11.3.1                        0    defaults
+networkx                  1.11                     py27_0    defaults
+nltk                      3.1                      py27_0    defaults
+nose                      1.3.7                    py27_0    defaults
+numpy                     1.10.4                   py27_1    defaults
+openblas                  0.2.14                        3    defaults
+opencv                    2.4.10              np110py27_1    defaults
+openssl                   1.0.2g                        0    defaults
+pandas                    0.17.0                    <pip>
+patchelf                  0.6                           0    defaults
+path.py                   8.1.2                    py27_0    defaults
+pexpect                   3.3                      py27_0    defaults
+pickleshare               0.5                      py27_0    defaults
+pillow                    3.1.1                    py27_0    defaults
+pip                       8.1.1                    py27_1    defaults
+pixman                    0.32.6                        0    defaults
+pool                      0.1.2.dev0                <pip>
+protobuf                  2.6.1                    py27_1    defaults
+py2cairo                  1.10.0                   py27_2    defaults
+pycairo                   1.10.0                   py27_0    defaults
+pycosat                   0.6.1                    py27_0    <unknown>
+pycrypto                  2.6.1                    py27_0    <unknown>
+pydot                     1.0.28                   py27_0    defaults
+pylab                     0.1.3                     <pip>
+pymongo                   3.0.3                    py27_0    defaults
+pyparsing                 2.0.3                    py27_0    defaults
+pyqt                      4.11.4                   py27_1    defaults
+pyside                    1.2.1                    py27_1    defaults
+python                    2.7.11                        0    defaults
+python-dateutil           2.4.2                    py27_0    defaults
+pytz                      2015.7                   py27_0    defaults
+pyyaml                    3.11                     py27_1    <unknown>
+pyzmq                     14.7.0                    <pip>
+qt                        4.8.7                         1    defaults
+readline                  6.2                           2    <unknown>
+requests                  2.9.1                    py27_0    defaults
+scikit-image              0.11.3              np110py27_0    defaults
+scikit-learn              0.17.1              np110py27_0    defaults
+scipy                     0.17.0              np110py27_2    defaults
+seaborn                   0.6.0                     <pip>
+setuptools                20.7.0                   py27_0    defaults
+shiboken                  1.2.1                    py27_0    defaults
+simplegeneric             0.8.1                    py27_0    defaults
+sip                       4.16.9                   py27_0    defaults
+six                       1.10.0                   py27_0    defaults
+smart-open                1.3.2                     <pip>
+sqlite                    3.9.2                         0    defaults
+sympy                     0.7.6.1                   <pip>
+theano                    0.7.0               np110py27_0    defaults
+tk                        8.5.18                        0    <unknown>
+tornado                   4.2.1                     <pip>
+traitlets                 4.0.0                    py27_0    defaults
+wheel                     0.29.0                   py27_0    defaults
+x264                      20131217                      2    file:///tools/anaconda/3.16/conda-bld/linux-64/x264-20131217-2.tar.bz2
+xz                        5.0.5                         1    defaults
+yaml                      0.1.6                         0    <unknown>
+zlib                      1.2.8                         0    <unknown>
+[srv7357@sporcsubmit ~]$ conda env list
+# conda environments:
+#
+_build                   /tools/anaconda/3.16/envs/_build
+python3                  /tools/anaconda/3.16/envs/python3
+root                  *  /tools/anaconda/3.16
+
+[srv7357@sporcsubmit ~]$
+
+-----
